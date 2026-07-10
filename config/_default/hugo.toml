@@ -9,7 +9,7 @@ enableGitInfo = true
   name = "Github"
   url = "https://github.com/dingyiyi0226/geoguessr-note"
 [params]
-  BookTheme = 'light'
+  BookTheme = 'auto'
   BookRepo = 'https://github.com/dingyiyi0226/geoguessr-note'
   BookLastChangeLink = 'https://github.com/dingyiyi0226/geoguessr-note/commit/{{ .GitInfo.Hash }}'
   BookEditLink = 'https://github.com/dingyiyi0226/geoguessr-note/edit/master/{{ .Path }}'

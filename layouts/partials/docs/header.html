@@ -1,0 +1,20 @@
+{{- /* Overrides the theme header (themes/hugo-book/layouts/_partials/docs/header.html)
+       to add the theme toggle. Re-sync with the theme partial on hugo-book bumps. */ -}}
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="{{ partial "docs/icon" "menu" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Menu" }}" />
+  </label>
+
+  <h3>{{ partial "docs/title" . }}</h3>
+
+  <div class="flex align-center">
+    <label for="toc-control">
+      {{ if partial "docs/toc-show" . }}
+      <img src="{{ partial "docs/icon" "toc" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Table of Contents" }}" />
+      {{ end }}
+    </label>
+    <button id="theme-toggle" type="button" aria-label="Toggle theme">
+      <img id="theme-toggle-icon" src="{{ "svg/moon.svg" | relURL }}" class="book-icon" alt="Toggle theme" />
+    </button>
+  </div>
+</div>
