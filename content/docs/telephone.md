@@ -191,9 +191,20 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 ## Area codes
 
+{{% details "Credits" %}}
+
+> Most of these maps' credits go to [Plonk It](https://www.plonkit.net/guide) — at the very least for collecting them;  
+> A few of the following maps are from elsewhere: [Argentina](https://learnablemeta.com/maps/6824efee8646292930db9807) from [Learnable Meta](https://learnablemeta.com/), [Austria](https://commons.wikimedia.org/wiki/File:Telefonvorwahlbereiche-Oesterreich.svg) and [Ghana](https://commons.wikimedia.org/wiki/File:Ghana_regional_phone_codes.jpg) from [Wikimedia Commons](https://commons.wikimedia.org).
+
+{{% /details %}}
+
 ### Argentina
 
-Area code map coming soon — see [Plonk It: Argentina](https://www.plonkit.net/argentina) for now.
+{{% details "Full" %}}
+
+<img src="https://learnablemeta.com/images/1398/1749471291095-UdG.avif"/>
+
+{{% /details %}}
 
 ### Australia
 
@@ -205,7 +216,11 @@ Area code map coming soon — see [Plonk It: Argentina](https://www.plonkit.net/
 
 ### Austria
 
-Area code map coming soon — see [Plonk It: Austria](https://www.plonkit.net/austria) for now.
+{{% details "Full" %}}
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Telefonvorwahlbereiche-Oesterreich.svg"/>
+
+{{% /details %}}
 
 ### Brazil
 
@@ -270,7 +285,11 @@ Area code map coming soon — see [Plonk It: Austria](https://www.plonkit.net/au
 
 ### Ghana
 
-Area code map coming soon — see [Plonk It: Ghana](https://www.plonkit.net/ghana) for now.
+{{% details "Full" %}}
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Ghana_regional_phone_codes.jpg"/>
+
+{{% /details %}}
 
 ### Greece
 
