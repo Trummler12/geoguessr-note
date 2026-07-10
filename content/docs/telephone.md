@@ -197,7 +197,11 @@ Area code map coming soon — see [Plonk It: Argentina](https://www.plonkit.net/
 
 ### Australia
 
-Area code map coming soon — see [Plonk It: Australia](https://www.plonkit.net/australia) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/australia/Phone_codes.png"/>
+
+{{% /details %}}
 
 ### Austria
 
@@ -218,27 +222,51 @@ Area code map coming soon — see [Plonk It: Austria](https://www.plonkit.net/au
 
 ### Bulgaria
 
-Area code map coming soon — see [Plonk It: Bulgaria](https://www.plonkit.net/bulgaria) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/bulgaria/bg_areacodes.png"/>
+
+{{% /details %}}
 
 ### Chile
 
-Area code map coming soon — see [Plonk It: Chile](https://www.plonkit.net/chile) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/chile/Chile_Area_Codes.png"/>
+
+{{% /details %}}
 
 ### Croatia
 
-Area code map coming soon — see [Plonk It: Croatia](https://www.plonkit.net/croatia) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/croatia/hr_areacodes_copy.png"/>
+
+{{% /details %}}
 
 ### Czech Republic
 
-Area code map coming soon — see [Plonk It: Czechia](https://www.plonkit.net/czechia) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/czechia/cz_areacodes.png"/>
+
+{{% /details %}}
 
 ### France
 
-Area code map coming soon — see [Plonk It: France](https://www.plonkit.net/france) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/france/2_areacodes.png"/>
+
+{{% /details %}}
 
 ### Germany
 
-Area code map coming soon — see [Plonk It: Germany](https://www.plonkit.net/germany) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/germany/800px-Karte_Telefonvorwahlen_Deutschland.png"/>
+
+{{% /details %}}
 
 ### Ghana
 
@@ -246,11 +274,19 @@ Area code map coming soon — see [Plonk It: Ghana](https://www.plonkit.net/ghan
 
 ### Greece
 
-Area code map coming soon — see [Plonk It: Greece](https://www.plonkit.net/greece) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/greece/gr_areacodes_darkmode.png"/>
+
+{{% /details %}}
 
 ### Italy
 
-Area code map coming soon — see [Plonk It: Italy](https://www.plonkit.net/italy) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/italy/it_phonecodes.png"/>
+
+{{% /details %}}
 
 ### Japan
 
@@ -267,76 +303,152 @@ Area code map coming soon — see [Plonk It: Italy](https://www.plonkit.net/ital
 
 ### Mexico
 
-Area code map coming soon — see [Plonk It: Mexico](https://www.plonkit.net/mexico) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/mexico/mx_areacodes_nobg.png"/>
+
+{{% /details %}}
 
 ### Namibia
 
-Area code map coming soon — see [Plonk It: Namibia](https://www.plonkit.net/namibia) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/namibia/12.png"/>
+
+{{% /details %}}
 
 ### Netherlands
 
-Area code map coming soon — see [Plonk It: Netherlands](https://www.plonkit.net/netherlands) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/netherlands/Area_codes_of_the_Netherlands.png"/>
+
+{{% /details %}}
 
 ### New Zealand
 
-Area code map coming soon — see [Plonk It: New Zealand](https://www.plonkit.net/new-zealand) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/new-zealand/nz_area_codes_new.png"/>
+
+{{% /details %}}
 
 ### Panama
 
-Area code map coming soon — see [Plonk It: Panama](https://www.plonkit.net/panama) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/panama/13.png"/>
+
+{{% /details %}}
 
 ### Poland
 
-Area code map coming soon — see [Plonk It: Poland](https://www.plonkit.net/poland) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/poland/Poland-area-codes.png"/>
+
+{{% /details %}}
 
 ### Portugal
 
-Area code map coming soon — see [Plonk It: Portugal](https://www.plonkit.net/portugal) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/portugal/2areacodes_darkmode.webp"/>
+
+{{% /details %}}
 
 ### Russia
 
-Area code map coming soon — see [Plonk It: Russia](https://www.plonkit.net/russia) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/russia/areacodes.png"/>
+
+{{% /details %}}
 
 ### Slovakia
 
-Area code map coming soon — see [Plonk It: Slovakia](https://www.plonkit.net/slovakia) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/slovakia/sk_areacodes.png"/>
+
+{{% /details %}}
 
 ### South Africa
 
-Area code map coming soon — see [Plonk It: South Africa](https://www.plonkit.net/south-africa) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/south-africa/ZA_Phone_Code_Map.png"/>
+
+{{% /details %}}
 
 ### South Korea
 
-Area code map coming soon — see [Plonk It: South Korea](https://www.plonkit.net/south-korea) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/south-korea/kr_phonecodes.png"/>
+
+{{% /details %}}
 
 ### Spain
 
-Area code map coming soon — see [Plonk It: Spain](https://www.plonkit.net/spain) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/spain/Spain-telephone-codes__281_29_darkmode.png"/>
+
+{{% /details %}}
 
 ### Sri Lanka
 
-Area code map coming soon — see [Plonk It: Sri Lanka](https://www.plonkit.net/sri-lanka) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/sri-lanka/Sri_area_codes.png"/>
+
+{{% /details %}}
 
 ### Sweden
 
-Area code map coming soon — see [Plonk It: Sweden](https://www.plonkit.net/sweden) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/sweden/Phone_numbers.png"/>
+
+{{% /details %}}
 
 ### Taiwan
 
-Area code map coming soon — see [Plonk It: Taiwan](https://www.plonkit.net/taiwan) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/taiwan/a-more-detailed-taiwan-area-code-map.webp"/>
+
+{{% /details %}}
 
 ### Thailand
 
-Area code map coming soon — see [Plonk It: Thailand](https://www.plonkit.net/thailand) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/thailand/Indicatifs_Thailande.png"/>
+
+{{% /details %}}
 
 ### Turkey
 
-Area code map coming soon — see [Plonk It: Turkey](https://www.plonkit.net/turkey) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/turkey/tr_areacodes_nobg.png"/>
+
+{{% /details %}}
 
 ### United States
 
-Area code map coming soon — see [Plonk It: United States](https://www.plonkit.net/united-states) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/united-states/US_area_codes_map.jfif"/>
+
+{{% /details %}}
 
 ### Vietnam
 
-Area code map coming soon — see [Plonk It: Vietnam](https://www.plonkit.net/vietnam) for now.
+{{% details "Full" %}}
+
+<img src="https://www.plonkit.net/images/vietnam/vnareacodes_map.jpg"/>
+
+{{% /details %}}
