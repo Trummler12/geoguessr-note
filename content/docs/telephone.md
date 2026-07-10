@@ -4,6 +4,19 @@ weight: 100
 
 # Telephone
 
+Every country is reachable by an international **country calling code** (`+XX`).  
+This world map is the quickest first anchor:  
+First identify the code, then narrow down further by area code (see below; limited to countries that use one)
+
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Country_calling_codes_map.svg" alt="World map of international country calling codes" loading="lazy" style="width: 100%;" />
+  <figcaption>
+    Country calling codes worldwide. Map by
+    <a href="https://commons.wikimedia.org/wiki/File:Country_calling_codes_map.svg" target="_blank" rel="noopener">Maximilian Dörrbecker (Chumwa)</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>.
+  </figcaption>
+</figure>
+
 ## Area code
 
 ### Japan
