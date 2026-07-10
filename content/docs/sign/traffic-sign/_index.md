@@ -158,7 +158,7 @@ Finland, Sweden, Iceland, Poland, North Macedonia, Greece
 
 #### Australia
 
-{{<figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Australia_road_sign_R1-2.svg/272px-Australia_road_sign_R1-2.svg.png"
+{{<figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Australia_road_sign_R1-2.svg/250px-Australia_road_sign_R1-2.svg.png"
   caption="black text" class="img-sm" >}}
 
 <--->
