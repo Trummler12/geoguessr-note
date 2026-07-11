@@ -229,6 +229,14 @@ An isolated language
 | Kana + Han       | あ ア mixed with 漢字 (rounded + angular) | **Japan**                                         |
 {.table-tight}
 
+### South Asian
+
+All are Brahmic; sort them by the headline stroke along the top:
+
+- **Headline present:** **Devanagari** (Hindi, Nepal) — straight bar, angular letters (अ आ क); **Bengali** (Bangladesh, East India) — a headline too, but rounder with triangular, hooked shapes (অ আ ক).
+- **No headline:** **Tamil** (Tamil Nadu, Sri Lanka) — angular with open loops (அ ஆ க); **Sinhala** (Sri Lanka) — extremely round and curly (අ ආ ක).
+- **Sri Lanka** shows Sinhala and Tamil together (plus English).
+
 ### East Asian (CJK)
 
 Han characters (漢字) are shared across the region, so look for the *extras*:
