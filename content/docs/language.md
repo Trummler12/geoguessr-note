@@ -185,6 +185,7 @@ An isolated language
 - **<abbr title="~52°N 108°E · E of Lake Baikal, Mongolian border">Buryatia (Ulan-Ude)</abbr>**: ө ү һ
 - **<abbr title="~46°N 44°E · NW Caspian, N of the Caucasus">Kalmykia (Elista)</abbr>**: ә һ җ ң ө ү
 - **<abbr title="~43°N 46°E · North Caucasus">Chechnya (Grozny)</abbr>**: аь къ оь уь хь юь яь ӏ гӏ кӏ пӏ тӏ хӏ цӏ чӏ кх
+- **else → Standard Russian**: none of the extra letters above; the vast majority of the country, incl. Moscow, St. Petersburg and most of Siberia
 
 ### Central Asia
 
