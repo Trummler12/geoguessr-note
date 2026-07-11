@@ -229,7 +229,9 @@ An isolated language
 | Kana + Han       | あ ア mixed with 漢字 (rounded + angular) | **Japan**                                         |
 {.table-tight}
 
-### Arabic script
+*Expand for tips on telling similar-looking scripts apart:*
+
+{{% details "Arabic script" %}}
 
 The script spans many countries, but a few added letters narrow it down:
 
@@ -237,7 +239,9 @@ The script spans many countries, but a few added letters narrow it down:
 - **Persian (Farsi) → Iran.** Adds four letters: پ چ ژ گ (p, ch, zh, g).
 - **Urdu → Pakistan.** Uses the Persian additions plus ٹ ڈ ڑ ں ے, and is usually written in the slanted, flowing **Nastaʿliq** style.
 
-### South Asian
+{{% /details %}}
+
+{{% details "South Asian" %}}
 
 All are Brahmic; sort them by the headline stroke along the top:
 
@@ -245,7 +249,9 @@ All are Brahmic; sort them by the headline stroke along the top:
 - **No headline:** **Tamil** (Tamil Nadu, Sri Lanka) — angular with open loops (அ ஆ க); **Sinhala** (Sri Lanka) — extremely round and curly (අ ආ ක).
 - **Sri Lanka** shows Sinhala and Tamil together (plus English).
 
-### Southeast Asian
+{{% /details %}}
+
+{{% details "Southeast Asian" %}}
 
 Four distinct scripts, one country each:
 
@@ -254,7 +260,9 @@ Four distinct scripts, one country each:
 - **Khmer** — tall and spiky, with stacked subscript consonants hanging below the line (ក ខ គ).
 - **Burmese** — almost all circles and arcs (က ခ ဂ).
 
-### East Asian (CJK)
+{{% /details %}}
+
+{{% details "East Asian (CJK)" %}}
 
 Han characters (漢字) are shared across the region, so look for the *extras*:
 
@@ -262,3 +270,5 @@ Han characters (漢字) are shared across the region, so look for the *extras*:
 - **Hangul → South Korea.** Round, blocky syllables full of ○ and □ shapes (한 국 어); no Han needed.
 - **Only Han, simplified → mainland China.** Fewer strokes after the 1950s reforms (国 车 门 见).
 - **Only Han, traditional → Taiwan, Hong Kong, Macau.** More strokes (國 車 門 見); Hong Kong and Macau also carry lots of Latin signage (English / Portuguese).
+
+{{% /details %}}
