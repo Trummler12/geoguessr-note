@@ -4,6 +4,13 @@
     color: var(--gray-500);
   }
 
+  // hover hint for inline abbreviations (e.g. region geo-hints)
+  abbr[title] {
+    cursor: help;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.15em;
+  }
+
   img.img-sm,
   figure.img-sm img {
     max-width: 100px;
