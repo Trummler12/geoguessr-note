@@ -22,7 +22,7 @@ weight: 30
 ### Street
 
 |             |                |              |           |
-| :---------- | :------------- | :----------- | :-------- |
+|:------------|:---------------|:-------------|:----------|
 | rue         | French         | calle        | Spanish   |
 | rua         | Portuguese     | carrer       | Catalan   |
 |             |                |              |           |
@@ -68,33 +68,33 @@ weight: 30
 
 ### Table of characters
 
-|           |                   |                 |                 |
-|:--------- |:----------------- |:--------------- |:--------------- |
-| Czech     | **ů ě ř** ý       | ň ď ť Ď Ť č š ž | á é í ó ú       |
-| Slovakia  | **ô ŕ ĺ ľ** ý     | ň ď ť Ď Ť č š ž | **ä** á é í ó ú |
-| Croatia   | Ð đ               | č š ž           | **ć**           |
-| Slovenia  | Ð đ               | č š ž           | **ć**           |
-| Hungary   | **ő ű** ö ü       |                 | á é í ó ú       |
-| Romania   | **ă ș ț** â î     |                 |                 |
-| Albania   | ç                 |                 | **ë**           |
-| Turkey    | **İ ı ğ ş** ç     |                 | ö ü             |
-|           |                   |                 |                 |
-| Estonia   | **õ**             | š ž             | ä ö ü           |
-| Latvia    | **ģ ķ ļ ņ Ģ**     | č š ž           | **ā ē ī** ū     |
-| Lithuania | **ė ą ę į ų**     | č š ž           | ū               |
-| Poland    | **ł ż** ą ę       |                 | **ć ń ś ź** ó   |
-|           |                   |                 |                 |
-| Norway    | ø æ å             |                 |                 |
-| Denmark   | ø æ å             |                 |                 |
-| Faroe     | ø æ Ð ð           |                 | á í ú ý         |
-| Iceland   | **þ** æ Ð ð       |                 | ö á é í ó ú ý   |
-| Sweden    | å                 |                 | ä ö             |
-| Finland   | å                 |                 | ä ö             |
-|           |                   |                 |                 |
-| Spain     | ñ                 |                 |                 |
-| Portugal  | ç **ã õ** â ê ô   |                 | á é í ó ú à     |
-| France    | ç æ œ             |                 |                 |
-| Malta     | **ċ ġ ż ħ**       |                 |                 |
+|           |                 |                 |                 |
+|:----------|:----------------|:----------------|:----------------|
+| Czech     | **ů ě ř** ý     | ň ď ť Ď Ť č š ž | á é í ó ú       |
+| Slovakia  | **ô ŕ ĺ ľ** ý   | ň ď ť Ď Ť č š ž | **ä** á é í ó ú |
+| Croatia   | Ð đ             | č š ž           | **ć**           |
+| Slovenia  | Ð đ             | č š ž           | **ć**           |
+| Hungary   | **ő ű** ö ü     |                 | á é í ó ú       |
+| Romania   | **ă ș ț** â î   |                 |                 |
+| Albania   | ç               |                 | **ë**           |
+| Turkey    | **İ ı ğ ş** ç   |                 | ö ü             |
+|           |                 |                 |                 |
+| Estonia   | **õ**           | š ž             | ä ö ü           |
+| Latvia    | **ģ ķ ļ ņ Ģ**   | č š ž           | **ā ē ī** ū     |
+| Lithuania | **ė ą ę į ų**   | č š ž           | ū               |
+| Poland    | **ł ż** ą ę     |                 | **ć ń ś ź** ó   |
+|           |                 |                 |                 |
+| Norway    | ø æ å           |                 |                 |
+| Denmark   | ø æ å           |                 |                 |
+| Faroe     | ø æ Ð ð         |                 | á í ú ý         |
+| Iceland   | **þ** æ Ð ð     |                 | ö á é í ó ú ý   |
+| Sweden    | å               |                 | ä ö             |
+| Finland   | å               |                 | ä ö             |
+|           |                 |                 |                 |
+| Spain     | ñ               |                 |                 |
+| Portugal  | ç **ã õ** â ê ô |                 | á é í ó ú à     |
+| France    | ç æ œ           |                 |                 |
+| Malta     | **ċ ġ ż ħ**     |                 |                 |
 {.table-tight .header-first}
 
 > [!WARNING]
@@ -193,6 +193,11 @@ An isolated language
 - **Kyrgyzstan**: ң ө ү
 - **Mongolia**: ө ү
 
+### Summary
+
+- Kalmyk is closed to Mongolic, but within europe
+- Northern oblasts (Udmurt, Mari El, Komi) using ö just like finnish
+- **ө ү** is used by central asia and the surrounding regions
 
 
 ## Script
@@ -201,32 +206,25 @@ An isolated language
 > **A non-Latin script often pins the country by itself.** Many writing systems map to a single country, so recognizing the script is usually the fastest first triage.  
 > Latin diacritics are covered under [Alphabet](#alphabet), Cyrillic under [Cyrillic](#cyrillic).
 
-| Script | Looks like | Points to |
-|:----------------- |:------------------------------------- |:------------------------------- |
-| Greek              | α β γ Ω                                 | **Greece**, Cyprus              |
-| Hebrew             | א ב ג — blocky RTL                      | **Israel**                      |
-| Geʽez (Amharic)    | አ በ ገ — boxy syllables                  | **Ethiopia**, Eritrea           |
-| Arabic             | ا ب ت — cursive RTL, dots               | Arab world; +Persian **Iran**, +Urdu **Pakistan** |
-| Georgian           | ა ბ გ — round, no capitals              | **Georgia**                     |
-| Armenian           | ա բ գ — hooked strokes                  | **Armenia**                     |
-| Thaana             | ހ ށ ނ — RTL, curvy                      | **Maldives**                    |
-| Devanagari         | अ आ क — connected top bar               | **India** (Hindi), **Nepal**    |
-| Tamil              | அ ஆ க — loopy, no top bar               | **Sri Lanka** (Tamil), S India  |
-| Sinhala            | අ ආ ක — very round, curly               | **Sri Lanka**                   |
-| Bengali            | অ আ ক — slanted top bar                 | **Bangladesh**, E India         |
-| Burmese            | က ခ ဂ — round "O" shapes                | **Myanmar**                     |
-| Thai               | ก ข ค — loops & tails, no spaces        | **Thailand**                    |
-| Lao                | ກ ຂ ຄ — rounder, simpler than Thai      | **Laos**                        |
-| Khmer              | ក ខ គ — tall, spiky                     | **Cambodia**                    |
-| Han, simplified    | 车 门 见 — fewer strokes                 | **China** (mainland)            |
-| Han, traditional   | 車 門 見 — more strokes                  | **Taiwan**, Hong Kong, Macau    |
-| Hangul             | 한 글 — circles & blocky syllables      | **South Korea**                 |
-| Kana + Han         | あ ア mixed with 漢字 (rounded + angular) | **Japan**                       |
+| Script           | Looks like                              | Points to                                         |
+|:-----------------|:----------------------------------------|:--------------------------------------------------|
+| Greek            | α β γ Ω                                 | **Greece**, Cyprus                                |
+| Hebrew           | א ב ג — blocky RTL                      | **Israel**                                        |
+| Geʽez (Amharic)  | አ በ ገ — boxy syllables                  | **Ethiopia**, Eritrea                             |
+| Arabic           | ا ب ت — cursive RTL, dots               | Arab world; +Persian **Iran**, +Urdu **Pakistan** |
+| Georgian         | ა ბ გ — round, no capitals              | **Georgia**                                       |
+| Armenian         | ա բ գ — hooked strokes                  | **Armenia**                                       |
+| Thaana           | ހ ށ ނ — RTL, curvy                      | **Maldives**                                      |
+| Devanagari       | अ आ क — connected top bar               | **India** (Hindi), **Nepal**                      |
+| Tamil            | அ ஆ க — loopy, no top bar               | **Sri Lanka** (Tamil), S India                    |
+| Sinhala          | අ ආ ක — very round, curly               | **Sri Lanka**                                     |
+| Bengali          | অ আ ক — slanted top bar                 | **Bangladesh**, E India                           |
+| Burmese          | က ခ ဂ — round "O" shapes                | **Myanmar**                                       |
+| Thai             | ก ข ค — loops & tails, no spaces        | **Thailand**                                      |
+| Lao              | ກ ຂ ຄ — rounder, simpler than Thai      | **Laos**                                          |
+| Khmer            | ក ខ គ — tall, spiky                     | **Cambodia**                                      |
+| Han, simplified  | 车 门 见 — fewer strokes                | **China** (mainland)                              |
+| Han, traditional | 車 門 見 — more strokes                 | **Taiwan**, Hong Kong, Macau                      |
+| Hangul           | 한 글 — circles & blocky syllables        | **South Korea**                                   |
+| Kana + Han       | あ ア mixed with 漢字 (rounded + angular) | **Japan**                                         |
 {.table-tight}
-
-
-### Summary
-
-- Kalmyk is closed to Mongolic, but within europe
-- Northern oblasts (Udmurt, Mari El, Komi) using ö just like finnish
-- **ө ү** is used by central asia and the surrounding regions
