@@ -11,6 +11,24 @@
     text-underline-offset: 0.15em;
   }
 
+  // optional digraph column toggle in the character tables
+  .chartable .digraph-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: $padding-4;
+    font-size: 0.8rem;
+    color: var(--gray-500);
+    white-space: nowrap;
+  }
+  .chartable table th:last-child,
+  .chartable table td:last-child {
+    display: none;
+  }
+  .chartable:has(#show-digraphs:checked) table th:last-child,
+  .chartable:has(#show-digraphs:checked) table td:last-child {
+    display: table-cell;
+  }
+
   img.img-sm,
   figure.img-sm img {
     max-width: 100px;
