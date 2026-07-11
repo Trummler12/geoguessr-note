@@ -48,7 +48,7 @@ weight: 10
 
 <--->
 
-#### Lativia
+#### Latvia
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Latvia_road_sign_535.svg" class="img-sm" />
 
@@ -243,7 +243,7 @@ Finland, Sweden, Iceland,  Poland, North Macedonia, Greece, Croatia, Slovenia
 
 {{% columns %}}
 
-#### Lativia
+#### Latvia
 
 {{<figure
   src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Latvia_road_sign_541.svg"
