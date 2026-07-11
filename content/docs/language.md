@@ -68,34 +68,74 @@ weight: 30
 
 ### Table of characters
 
-|           |                 |                 |                 |
-|:----------|:----------------|:----------------|:----------------|
-| Czech     | **ů ě ř** ý     | ň ď ť Ď Ť č š ž | á é í ó ú       |
-| Slovakia  | **ô ŕ ĺ ľ** ý   | ň ď ť Ď Ť č š ž | **ä** á é í ó ú |
-| Croatia   | Ð đ             | č š ž           | **ć**           |
-| Slovenia  | Ð đ             | č š ž           | **ć**           |
-| Hungary   | **ő ű** ö ü     |                 | á é í ó ú       |
-| Romania   | **ă ș ț** â î   |                 |                 |
-| Albania   | ç               |                 | **ë**           |
-| Turkey    | **İ ı ğ ş** ç   |                 | ö ü             |
-|           |                 |                 |                 |
-| Estonia   | **õ**           | š ž             | ä ö ü           |
-| Latvia    | **ģ ķ ļ ņ Ģ**   | č š ž           | **ā ē ī** ū     |
-| Lithuania | **ė ą ę į ų**   | č š ž           | ū               |
-| Poland    | **ł ż** ą ę     |                 | **ć ń ś ź** ó   |
-|           |                 |                 |                 |
-| Norway    | ø æ å           |                 |                 |
-| Denmark   | ø æ å           |                 |                 |
-| Faroe     | ø æ Ð ð         |                 | á í ú ý         |
-| Iceland   | **þ** æ Ð ð     |                 | ö á é í ó ú ý   |
-| Sweden    | å               |                 | ä ö             |
-| Finland   | å               |                 | ä ö             |
-|           |                 |                 |                 |
-| Spain     | ñ               |                 |                 |
-| Portugal  | ç **ã õ** â ê ô |                 | á é í ó ú à     |
-| France    | ç æ œ           |                 |                 |
-| Malta     | **ċ ġ ż ħ**     |                 |                 |
+{{< tabs "chartable" >}}
+{{% tab "By diacritic type" %}}
+
+| Country | Caron | Acute | Umlaut / macron | Special letters |
+|:--|:--|:--|:--|:--|
+| Czech | **ě ř** ň ď ť č š ž | ý á é í ó ú | **ů** | |
+| Slovakia | **ľ** ň ď ť č š ž | **ĺ ŕ** ý á é í ó ú | ä **ô** | |
+| Croatia | č š ž | **ć** | | **Ð đ** |
+| Slovenia | č š ž | **ć** | | **Ð đ** |
+|  |  |  |  |  |
+| Estonia | š ž | | **õ** ä ö ü | |
+| Latvia | č š ž | | **ā ē ī** ū | **ģ ķ ļ ņ Ģ** |
+| Lithuania | č š ž | | ū **ą ę į ų ė** | |
+|  |  |  |  |  |
+| Poland | | **ć ń ś ź** ó | ą ę | **ł ż** |
+| Hungary | | **ő ű** á é í ó ú | ö ü | |
+| Romania | | | **ă** â î | **ș ț** |
+| Albania | | | **ë** | ç |
+| Turkey | | | ö ü | **İ ı ğ ş** ç |
+|  |  |  |  |  |
+| Norway | | | å | **ø æ** |
+| Denmark | | | å | **ø æ** |
+| Faroe | | á í ú ý | å | **ø æ ð Ð** |
+| Iceland | | á é í ó ú ý | ö å | **þ æ ð Ð** |
+| Sweden | | | å ä ö | |
+| Finland | | | å ä ö | |
+|  |  |  |  |  |
+| Spain | | | | **ñ** |
+| Portugal | | á é í ó ú | **ã õ** â ê ô à | ç |
+| France | | | | ç æ **œ** |
+| Malta | | | | **ċ ġ ż ħ** |
 {.table-tight .header-first}
+
+{{% /tab %}}
+{{% tab "Giveaway view" %}}
+
+| Country | Giveaway (rare → pins) | Also uses |
+|:--|:--|:--|
+| Czech | **ů ě ř** | ý č š ž ň ď ť á é í ó ú |
+| Slovakia | **ô ŕ ĺ ľ** | ý č š ž ň ď ť ä á é í ó ú |
+| Croatia | **đ ć** | č š ž |
+| Slovenia | **đ ć** | č š ž |
+|  |  |  |
+| Estonia | **õ** | š ž ä ö ü |
+| Latvia | **ģ ķ ļ ņ ā ē ī** | č š ž ū |
+| Lithuania | **ė ą ę į ų** | č š ž ū |
+|  |  |  |
+| Poland | **ł ż ć ń ś ź** | ą ę ó |
+| Hungary | **ő ű** | ö ü á é í ó ú |
+| Romania | **ă ș ț** | â î |
+| Albania | **ë** | ç |
+| Turkey | **ı İ ğ ş** | ç ö ü |
+|  |  |  |
+| Norway | **ø æ** | å |
+| Denmark | **ø æ** | å |
+| Faroe | **ø æ ð** | á í ú ý |
+| Iceland | **þ æ ð** | ö å á é í ó ú ý |
+| Sweden | — | å ä ö |
+| Finland | — | å ä ö |
+|  |  |  |
+| Spain | **ñ** | |
+| Portugal | **ã õ** | ç â ê ô á é í ó ú à |
+| France | **œ** | ç æ |
+| Malta | **ċ ġ ż ħ** | |
+{.table-tight .header-first}
+
+{{% /tab %}}
+{{< /tabs >}}
 
 > [!WARNING]
 > **Note**  
