@@ -80,22 +80,23 @@ weight: 30
 | Croatia | č š ž | **ć** | | **Ð đ** | lj nj **dž** |
 | Slovenia | č š ž | **ć** | | **Ð đ** | lj nj |
 |  |  |  |  |  |  |
-| Estonia | š ž | | **õ** ä ö ü | | |
+| Estonia | š ž | | **õ** ä ö ü | | kk (double letters) |
 | Latvia | č š ž | | **ā ē ī** ū | **ģ ķ ļ ņ Ģ** | |
-| Lithuania | č š ž | | ū **ą ę į ų ė** | | |
+| Lithuania | č š ž | | ū **ą ę į ų ė** | | iai |
 |  |  |  |  |  |  |
 | Poland | | **ć ń ś ź** ó | ą ę | **ł ż** | sz cz rz |
-| Hungary | | **ő ű** á é í ó ú | ö ü | | gy ly ny ty |
+| Hungary | | **ő ű** á é í ó ú | ö ü | | gy ly ny ty sz |
 | Romania | | | **ă** â î | **ș ț** | |
 | Albania | | | **ë** | ç | dh gj xh zh |
 | Turkey | | | ö ü | **İ ı ğ ş** ç | |
 |  |  |  |  |  |  |
-| Norway | | | å | **ø æ** | |
+| Norway | | | å | **ø æ** <span class="text-rare">c</span> | kk |
 | Denmark | | | å | **ø æ** | |
 | Faroe | | á í ú ý | å | **ø æ ð Ð** | |
 | Iceland | | á é í ó ú ý | ö å | **þ æ ð Ð** | |
 | Sweden | | | å ä ö | | |
-| Finland | | | å ä ö | | |
+| Finland | | | å ä ö | | kk (double letters) |
+| <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
 |  |  |  |  |  |  |
 | Spain | | | | **ñ** | ll (Catalan **l·l**) |
 | Portugal | | á é í ó ú | **ã õ** â ê ô à | ç | nh lh |
@@ -113,22 +114,23 @@ weight: 30
 | Croatia | **đ ć** | č š ž | lj nj **dž** |
 | Slovenia | **đ ć** | č š ž | lj nj |
 |  |  |  |  |
-| Estonia | **õ** | š ž ä ö ü | |
+| Estonia | **õ** | š ž ä ö ü | kk (double letters) |
 | Latvia | **ģ ķ ļ ņ ā ē ī** | č š ž ū | |
-| Lithuania | **ė ą ę į ų** | č š ž ū | |
+| Lithuania | **ė ą ę į ų** | č š ž ū | iai |
 |  |  |  |  |
 | Poland | **ł ż ć ń ś ź** | ą ę ó | sz cz rz |
-| Hungary | **ő ű** | ö ü á é í ó ú | gy ly ny ty |
+| Hungary | **ő ű** | ö ü á é í ó ú | gy ly ny ty sz |
 | Romania | **ă ș ț** | â î | |
 | Albania | **ë** | ç | dh gj xh zh |
 | Turkey | **ı İ ğ ş** | ç ö ü | |
 |  |  |  |  |
-| Norway | **ø æ** | å | |
+| Norway | **ø æ** | å <span class="text-rare">c</span> | kk |
 | Denmark | **ø æ** | å | |
 | Faroe | **ø æ ð** | á í ú ý | |
 | Iceland | **þ æ ð** | ö å á é í ó ú ý | |
 | Sweden | — | å ä ö | |
-| Finland | — | å ä ö | |
+| Finland | — | å ä ö | kk (double letters) |
+| <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
 |  |  |  |  |
 | Spain | **ñ** | | ll (Catalan **l·l**) |
 | Portugal | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
