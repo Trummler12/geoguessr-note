@@ -228,3 +228,12 @@ An isolated language
 | Hangul           | 한 글 — circles & blocky syllables        | **South Korea**                                   |
 | Kana + Han       | あ ア mixed with 漢字 (rounded + angular) | **Japan**                                         |
 {.table-tight}
+
+### East Asian (CJK)
+
+Han characters (漢字) are shared across the region, so look for the *extras*:
+
+- **Kana → Japan.** Any hiragana (あ の を) or katakana (ア ノ ヲ) mixed in means Japanese; Chinese never uses them.
+- **Hangul → South Korea.** Round, blocky syllables full of ○ and □ shapes (한 국 어); no Han needed.
+- **Only Han, simplified → mainland China.** Fewer strokes after the 1950s reforms (国 车 门 见).
+- **Only Han, traditional → Taiwan, Hong Kong, Macau.** More strokes (國 車 門 見); Hong Kong and Macau also carry lots of Latin signage (English / Portuguese).
