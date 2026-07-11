@@ -99,8 +99,8 @@ weight: 30
 | <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
 |  |  |  |  |  |  |
 | Welsh (Wales) | | á é í ó ú | **ŵ ŷ** â ê î ô û | | **ll dd** ff |
-| Scottish Gaelic (Scotland) | | | **à è ì ò ù** | | bh dh fh mh |
-| Irish (Ireland) | | **á é í ó ú** | | | bh dh mh |
+| Scottish Gaelic | | | **à è ì ò ù** | | bh dh fh mh |
+| Irish | | **á é í ó ú** | | | bh dh mh |
 |  |  |  |  |  |  |
 | Spain | | | | **ñ** | ll (Catalan **l·l**) |
 | Portugal | | á é í ó ú | **ã õ** â ê ô à | ç | nh lh |
@@ -137,8 +137,8 @@ weight: 30
 | <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
 |  |  |  |  |
 | Welsh (Wales) | **ll dd ŵ ŷ** | á é í ó ú | ll dd ff |
-| Scottish Gaelic (Scotland) | **à è ì ò ù** | | bh dh fh mh |
-| Irish (Ireland) | — | á é í ó ú | bh dh mh |
+| Scottish Gaelic | **à è ì ò ù** | | bh dh fh mh |
+| Irish | — | á é í ó ú | bh dh mh |
 |  |  |  |  |
 | Spain | **ñ** | | ll (Catalan **l·l**) |
 | Portugal | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
