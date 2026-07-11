@@ -6,7 +6,7 @@ weight: 30
 
 > [!NOTE]
 > **Dutch**  
-> Netherland, Belgium  
+> Netherlands, Belgium  
 > **French**  
 > France, Belgium, Switzerland  
 > **German**  
@@ -52,7 +52,7 @@ weight: 30
 - **EinbahnStraße**, Oneway: Germany
 - **Araf**, Slow: Wales
 - **AWAS**, Caution: Malaysia, Indonesia
-- **Paunawa**, Caution: The Phillipines
+- **Paunawa**, Caution: the Philippines
 - **Gual permanent**, No parking: Catalonia
 
 ## Alphabet
@@ -80,7 +80,7 @@ weight: 30
 | Turkey    | **İ ı ğ ş** ç     |                 | ö ü             |
 |           |                   |                 |                 |
 | Estonia   | **õ**             | š ž             | ä ö ü           |
-| Lativia   | **ģ ķ ļ ņ Ģ**     | č š ž           | **ā ē ī** ū     |
+| Latvia    | **ģ ķ ļ ņ Ģ**     | č š ž           | **ā ē ī** ū     |
 | Lithuania | **ė ą ę į ų**     | č š ž           | ū               |
 | Poland    | **ł ż** ą ę       |                 | **ć ń ś ź** ó   |
 |           |                   |                 |                 |
@@ -164,14 +164,14 @@ An isolated language
 
 - [Federal subjects of russia](https://en.wikipedia.org/wiki/Federal_subjects_of_Russia)
 - **Russian**: а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
-- Characters in Russian but not in the following regions are <font color="#aaa">marked in grey</font>
+- Characters in Russian but not in the following regions are <span class="text-rare">marked in grey</span>
 
 ### Balkan
 
-- **Serbia**: њ љ џ ј ђ <font color="#aaa">ъ й ё ы э</font>
-- **Macedonia**: њ љ џ ј ѕ ѓ ќ <font color="#aaa">ъ й ё ы э</font>
-- **Bulgaria**: ѕ <font color="#aaa">й ё ы э</font>
-- **Ukraine**: ґ є і ї <font color="#aaa">ъ й ё ы э</font>
+- **Serbia**: њ љ џ ј ђ <span class="text-rare">ъ й ё ы э</span>
+- **Macedonia**: њ љ џ ј ѕ ѓ ќ <span class="text-rare">ъ й ё ы э</span>
+- **Bulgaria**: ѕ <span class="text-rare">й ё ы э</span>
+- **Ukraine**: ґ є і ї <span class="text-rare">ъ й ё ы э</span>
 
 ### Russia
 
