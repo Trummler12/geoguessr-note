@@ -175,16 +175,16 @@ An isolated language
 
 ### Russia
 
-- **<abbr title="~56°N 49°E · Middle Volga">Tatarstan (Kazan)</abbr>**: җ ң ө ү һ ә
-- **<abbr title="~55°N 56°E · Southern Urals">Bashkortostan (Ufa)</abbr>**: ғ ҙ ҡ ң ө ҫ ү һ ә
 - **<abbr title="~56°N 47°E · Middle Volga, W of Tatarstan">Chuvashia (Cheboksary)</abbr>**: ӑ ӗ ҫ ӳ
-- **<abbr title="~57°N 53°E · Kama basin, W of the Urals">Udmurtia (Izhevsk)</abbr>**: ӝ ӟ ӥ ӧ ӵ
 - **<abbr title="~57°N 48°E · Middle Volga, north bank">Mari El (Yoshkar-Ola)</abbr>**: ҥ ӧ ӱ
+- **<abbr title="~56°N 49°E · Middle Volga">Tatarstan (Kazan)</abbr>**: җ ң ө ү һ ә
+- **<abbr title="~57°N 53°E · Kama basin, W of the Urals">Udmurtia (Izhevsk)</abbr>**: ӝ ӟ ӥ ӧ ӵ
+- **<abbr title="~55°N 56°E · Southern Urals">Bashkortostan (Ufa)</abbr>**: ғ ҙ ҡ ң ө ҫ ү һ ә
 - **<abbr title="~62°N 51°E · far NE European Russia">Komi (Syktyvkar)</abbr>**: і ӧ
-- **<abbr title="~52°N 94°E · S Siberia, Mongolian border">Tuva (Kyzyl)</abbr>**: ң ө ү
-- **<abbr title="~52°N 108°E · E of Lake Baikal, Mongolian border">Buryatia (Ulan-Ude)</abbr>**: ө ү һ
 - **<abbr title="~46°N 44°E · NW Caspian, N of the Caucasus">Kalmykia (Elista)</abbr>**: ә һ җ ң ө ү
 - **<abbr title="~43°N 46°E · North Caucasus">Chechnya (Grozny)</abbr>**: аь къ оь уь хь юь яь ӏ гӏ кӏ пӏ тӏ хӏ цӏ чӏ кх
+- **<abbr title="~52°N 94°E · S Siberia, Mongolian border">Tuva (Kyzyl)</abbr>**: ң ө ү
+- **<abbr title="~52°N 108°E · E of Lake Baikal, Mongolian border">Buryatia (Ulan-Ude)</abbr>**: ө ү һ
 - **else → Standard Russian**: none of the extra letters above; the vast majority of the country, incl. Moscow, St. Petersburg and most of Siberia
 
 ### Central Asia
