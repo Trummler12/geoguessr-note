@@ -73,7 +73,7 @@ weight: 30
 {{< tabs "chartable" >}}
 {{% tab "By diacritic type" %}}
 
-| Country | Caron | Acute | Umlaut / macron | Special letters | Digraphs |
+| Country | Caron | Acute | Other vowel marks | Special letters | Digraphs |
 |:--|:--|:--|:--|:--|:--|
 | Czech | **ě ř** ň ď ť č š ž | ý á é í ó ú | **ů** | | |
 | Slovakia | **ľ** ň ď ť č š ž | **ĺ ŕ** ý á é í ó ú | ä **ô** | | |
@@ -97,6 +97,10 @@ weight: 30
 | Sweden | | | å ä ö | | |
 | Finland | | | å ä ö | | kk (double letters) |
 | <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
+|  |  |  |  |  |  |
+| Welsh (Wales) | | á é í ó ú | **ŵ ŷ** â ê î ô û | | **ll dd** ff |
+| Scottish Gaelic (Scotland) | | | **à è ì ò ù** | | bh dh fh mh |
+| Irish (Ireland) | | **á é í ó ú** | | | bh dh mh |
 |  |  |  |  |  |  |
 | Spain | | | | **ñ** | ll (Catalan **l·l**) |
 | Portugal | | á é í ó ú | **ã õ** â ê ô à | ç | nh lh |
@@ -131,6 +135,10 @@ weight: 30
 | Sweden | — | å ä ö | |
 | Finland | — | å ä ö | kk (double letters) |
 | <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
+|  |  |  |  |
+| Welsh (Wales) | **ll dd ŵ ŷ** | á é í ó ú | ll dd ff |
+| Scottish Gaelic (Scotland) | **à è ì ò ù** | | bh dh fh mh |
+| Irish (Ireland) | — | á é í ó ú | bh dh mh |
 |  |  |  |  |
 | Spain | **ñ** | | ll (Catalan **l·l**) |
 | Portugal | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
@@ -184,23 +192,6 @@ An isolated language
 - Northern Spain to Southern France
 - Common letters: **k, x, z, tx**
 - **kalea** for street
-
-
-## Celtic languages
-
-### Welsh
-
-- common letters: **ll, dd, w, y**
-- accents: circumflex (ˆ), acute (´)
-
-### Scottish Gaelic
-
-- common letters: **bh, dh, fh, mh**
-- accents: grave (`)
-
-### Irish
-
-- Use accents frequently: acute (´)
 
 
 ## Cyrillic
