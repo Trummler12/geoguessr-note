@@ -229,6 +229,14 @@ An isolated language
 | Kana + Han       | あ ア mixed with 漢字 (rounded + angular) | **Japan**                                         |
 {.table-tight}
 
+### Arabic script
+
+The script spans many countries, but a few added letters narrow it down:
+
+- **Plain Arabic** → the Arab world (no letters beyond ا–ي).
+- **Persian (Farsi) → Iran.** Adds four letters: پ چ ژ گ (p, ch, zh, g).
+- **Urdu → Pakistan.** Uses the Persian additions plus ٹ ڈ ڑ ں ے, and is usually written in the slanted, flowing **Nastaʿliq** style.
+
 ### South Asian
 
 All are Brahmic; sort them by the headline stroke along the top:
