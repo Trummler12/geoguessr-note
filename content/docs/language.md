@@ -237,6 +237,15 @@ All are Brahmic; sort them by the headline stroke along the top:
 - **No headline:** **Tamil** (Tamil Nadu, Sri Lanka) — angular with open loops (அ ஆ க); **Sinhala** (Sri Lanka) — extremely round and curly (අ ආ ක).
 - **Sri Lanka** shows Sinhala and Tamil together (plus English).
 
+### Southeast Asian
+
+Four distinct scripts, one country each:
+
+- **Thai** — busy, with tall loops and flag-like ascenders; no spaces between words (ก ข ค).
+- **Lao** — like a rounder, simpler Thai with fewer letters and curvier shapes (ກ ຂ ຄ).
+- **Khmer** — tall and spiky, with stacked subscript consonants hanging below the line (ក ខ គ).
+- **Burmese** — almost all circles and arcs (က ခ ဂ).
+
 ### East Asian (CJK)
 
 Han characters (漢字) are shared across the region, so look for the *extras*:
