@@ -173,6 +173,14 @@ weight: 30
 > **Note**  
 > **ş ș**, **ă ā** are identical in some fonts. Be careful when reading ad billboard
 
+> [!NOTE]
+> **Plain Latin, no special letters** — Text limited to a–z points to:
+> - **English**: UK, Ireland, USA, Canada, Australia, New Zealand, much of anglophone Africa
+> - **Dutch**: Netherlands, Flanders — bar the **ij** digraph
+> - **Indonesian / Malay**: Indonesia, Malaysia
+> - **Swahili**: Kenya, Tanzania
+> - **Filipino**: the Philippines (Spanish loans aside)
+
 ## Romance languages
 
 ### Spanish
