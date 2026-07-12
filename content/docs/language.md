@@ -94,24 +94,24 @@ weight: 30
 | Turkey | | | ö ü | **İ ı ğ ş** ç | |
 |  |  |  |  |  |  |
 | Germany, Austria | | | ä ö ü | **ß** | sch |
-| <abbr title="German-speaking Switzerland — writes ss, never ß">Switzerland</abbr> | | | ä ö ü | <span class="text-rare">ß</span> | sch |
-| Netherlands | | | ë ï | | ij |
+| <span class="lang-niche"></span><abbr title="German-speaking Switzerland — writes ss, never ß">Switzerland</abbr> | | | ä ö ü | <span class="text-rare">ß</span> | sch |
+| <span class="lang-digraph-only"></span>Netherlands | | | ë ï | | ij |
 |  |  |  |  |  |  |
 | Norway | | | å | **ø æ** <span class="text-rare">c</span> | kk |
 | Denmark | | | å | **ø æ** | |
-| Faroe | | á í ú ý | å | **ø æ ð Ð** | |
+| <span class="lang-niche"></span>Faroe | | á í ú ý | å | **ø æ ð Ð** | |
 | Iceland | | á é í ó ú ý | ö å | **þ æ ð Ð** | |
 | Sweden | | | å ä ö | | |
 | Finland | | | å ä ö | | kk (double letters) |
-| <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
+| <span class="lang-niche"></span><abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
 |  |  |  |  |  |  |
-| Welsh (Wales) | | á é í ó ú | **ŵ ŷ** â ê î ô û | | **ll dd** ff |
-| <abbr title="Scottish Gaelic — Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | | | **à è ì ò ù** | | bh dh fh mh |
-| Irish | | **á é í ó ú** | | | bh dh mh |
+| <span class="lang-niche"></span>Welsh (Wales) | | á é í ó ú | **ŵ ŷ** â ê î ô û | | **ll dd** ff |
+| <span class="lang-niche"></span><abbr title="Scottish Gaelic — Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | | | **à è ì ò ù** | | bh dh fh mh |
+| <span class="lang-niche"></span>Irish | | **á é í ó ú** | | | bh dh mh |
 |  |  |  |  |  |  |
 | Spain | | | | **ñ** | ll |
-| <abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | | é í ó ú | à è ò ï ü | ç | **l·l** ny |
-| <abbr title="Galician — Galicia, NW Spain">Galician</abbr> | | á é í ó ú | ü | ñ | |
+| <span class="lang-niche"></span><abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | | é í ó ú | à è ò ï ü | ç | **l·l** ny |
+| <span class="lang-niche"></span><abbr title="Galician — Galicia, NW Spain">Galician</abbr> | | á é í ó ú | ü | ñ | |
 | Portugal | | á é í ó ú | **ã õ** â ê ô à | ç | nh lh |
 | France | | | | ç æ **œ** | |
 | Italy | | é | à è ì ò ù | | gl gn |
@@ -139,24 +139,24 @@ weight: 30
 | Turkey | **ı İ ğ ş** | ç ö ü | |
 |  |  |  |  |
 | Germany, Austria | **ß** | ä ö ü | sch |
-| <abbr title="German-speaking Switzerland — writes ss, never ß">Switzerland</abbr> | — | ä ö ü <span class="text-rare">ß</span> | sch |
-| Netherlands | — | ë ï | ij |
+| <span class="lang-niche"></span><abbr title="German-speaking Switzerland — writes ss, never ß">Switzerland</abbr> | — | ä ö ü <span class="text-rare">ß</span> | sch |
+| <span class="lang-digraph-only"></span>Netherlands | — | ë ï | ij |
 |  |  |  |  |
 | Norway | **ø æ** | å <span class="text-rare">c</span> | kk |
 | Denmark | **ø æ** | å | |
-| Faroe | **ø æ ð** | á í ú ý | |
+| <span class="lang-niche"></span>Faroe | **ø æ ð** | á í ú ý | |
 | Iceland | **þ æ ð** | ö å á é í ó ú ý | |
 | Sweden | — | å ä ö | |
 | Finland | — | å ä ö | kk (double letters) |
-| <abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
+| <span class="lang-niche"></span><abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
 |  |  |  |  |
-| Welsh (Wales) | **ll dd ŵ ŷ** | á é í ó ú | ll dd ff |
-| <abbr title="Scottish Gaelic — Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | **à è ì ò ù** | | bh dh fh mh |
-| Irish | — | á é í ó ú | bh dh mh |
+| <span class="lang-niche"></span>Welsh (Wales) | **ll dd ŵ ŷ** | á é í ó ú | ll dd ff |
+| <span class="lang-niche"></span><abbr title="Scottish Gaelic — Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | **à è ì ò ù** | | bh dh fh mh |
+| <span class="lang-niche"></span>Irish | — | á é í ó ú | bh dh mh |
 |  |  |  |  |
 | Spain | **ñ** | | ll |
-| <abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | **l·l** | à è é í ï ò ó ú ü ç | **l·l** ny |
-| <abbr title="Galician — Galicia, NW Spain">Galician</abbr> | — | á é í ó ú ü ñ | |
+| <span class="lang-niche"></span><abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | **l·l** | à è é í ï ò ó ú ü ç | **l·l** ny |
+| <span class="lang-niche"></span><abbr title="Galician — Galicia, NW Spain">Galician</abbr> | — | á é í ó ú ü ñ | |
 | Portugal | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
 | France | **œ** | ç æ | |
 | Italy | — | à è é ì ò ù | gl gn |
@@ -164,7 +164,8 @@ weight: 30
 {.table-tight .header-first}
 
 {{% /tab %}}
-<label class="digraph-toggle"><input type="checkbox" id="show-digraphs"> Show digraphs</label>
+<label class="chart-toggle"><input type="checkbox" id="show-digraphs"> Digraphs</label>
+<label class="chart-toggle"><input type="checkbox" id="show-regionals"> Regionals</label>
 {{< /tabs >}}
 
 </div>

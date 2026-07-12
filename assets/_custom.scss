@@ -11,8 +11,8 @@
     text-underline-offset: 0.15em;
   }
 
-  // optional digraph column toggle in the character tables
-  .chartable .digraph-toggle {
+  // toggles in the character-table tab bar
+  .chartable .chart-toggle {
     display: inline-flex;
     align-items: center;
     gap: $padding-4;
@@ -20,6 +20,7 @@
     color: var(--gray-500);
     white-space: nowrap;
   }
+  // Digraphs: reveal the last column + digraph-only rows (Netherlands)
   .chartable table th:last-child,
   .chartable table td:last-child {
     display: none;
@@ -27,6 +28,19 @@
   .chartable:has(#show-digraphs:checked) table th:last-child,
   .chartable:has(#show-digraphs:checked) table td:last-child {
     display: table-cell;
+  }
+  .chartable table tr:has(.lang-digraph-only) {
+    display: none;
+  }
+  .chartable:has(#show-digraphs:checked) table tr:has(.lang-digraph-only) {
+    display: table-row;
+  }
+  // Regionals: reveal minority / sub-national language rows
+  .chartable table tr:has(.lang-niche) {
+    display: none;
+  }
+  .chartable:has(#show-regionals:checked) table tr:has(.lang-niche) {
+    display: table-row;
   }
 
   img.img-sm,
