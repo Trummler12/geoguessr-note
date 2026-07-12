@@ -18,13 +18,38 @@
   }
 
   // Priority: attribute already set (pre-paint) > saved choice > system > default.
+  function isTheme(t) {
+    return t === 'dark' || t === 'light';
+  }
+
+  function safeGet(key) {
+    try {
+      return localStorage.getItem(key);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function safeSet(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch (e) {}
+  }
+
   function resolve() {
-    return root.getAttribute('data-theme') || localStorage.getItem(STORAGE_KEY) || systemTheme();
+    const attr = root.getAttribute('data-theme');
+    if (isTheme(attr)) return attr;
+
+    const saved = safeGet(STORAGE_KEY);
+    if (isTheme(saved)) return saved;
+
+    return systemTheme();
   }
 
   function render(theme) {
-    root.setAttribute('data-theme', theme);
-    if (icon) icon.src = theme === 'dark' ? sun : moon;
+    const t = isTheme(theme) ? theme : systemTheme();
+    root.setAttribute('data-theme', t);
+    if (icon) icon.src = t === 'dark' ? sun : moon;
   }
 
   // Reflect the effective theme (e.g. keep the icon in sync) without persisting it,
@@ -35,7 +60,7 @@
     button.addEventListener('click', function () {
       const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       render(next);
-      localStorage.setItem(STORAGE_KEY, next); // persist only on explicit choice
+      safeSet(STORAGE_KEY, next); // persist only on explicit choice
     });
   }
 })();
