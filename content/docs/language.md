@@ -276,25 +276,25 @@ An isolated language
 
 | Script           | Common characters      | Giveaways                     | Points to                                         |
 |:-----------------|:-----------------------|:------------------------------|:--------------------------------------------------|
-| Greek            | α β γ δ ε ζ Ω Σ Δ Λ Ψ  | **Ω Σ Δ Ψ Λ** (unlike Latin)  | **Greece**, Cyprus                                |
-| Hebrew           | א ב ג ד ה ו ז ש        | blocky, RTL, no capitals      | **Israel**                                        |
-| Geʽez (Amharic)  | አ በ ገ ደ መ ሰ             | boxy syllable blocks          | **Ethiopia**, Eritrea                             |
-| Arabic           | ا ب ت ث ج ح خ د ر س     | cursive RTL, dots above/below | Arab world; +Persian **Iran**, +Urdu **Pakistan** |
-| Georgian         | ა ბ გ დ ე ვ ზ           | round curves, no capitals     | **Georgia**                                       |
-| Armenian         | ա բ գ դ ե զ է           | hooked strokes, no capitals   | **Armenia**                                       |
-| Thaana           | ހ ށ ނ ރ ބ              | RTL, curvy hooks              | **Maldives**                                      |
-| Devanagari       | अ आ इ क ख ग घ म न       | connected top bar             | **India** (Hindi), **Nepal**                      |
-| Tamil            | அ ஆ க ங ச ண ம           | loopy, no top bar             | **Sri Lanka** (Tamil), S India                    |
-| Sinhala          | අ ආ ක ග ට ම            | very round, curly             | **Sri Lanka**                                     |
-| Bengali          | অ আ ক খ গ ম ন          | slanted/wavy top bar          | **Bangladesh**, E India                           |
-| Burmese          | က ခ ဂ င စ              | round "O" shapes              | **Myanmar**                                       |
-| Thai             | ก ข ค ง จ ฉ ช ท น      | loops & tails, no spaces      | **Thailand**                                      |
-| Lao              | ກ ຂ ຄ ງ ຈ              | rounder, simpler than Thai    | **Laos**                                          |
-| Khmer            | ក ខ គ ង ច              | tall, spiky                   | **Cambodia**                                      |
-| Han, simplified  | 车 门 见 语 国 学        | fewer strokes                 | **China** (mainland), Singapore                   |
-| Han, traditional | 車 門 見 語 國 學        | more strokes                  | **Taiwan**, Hong Kong, Macau                      |
-| Hangul           | 한 글 안 녕 하 요        | circles & blocky syllables    | **South Korea**, North Korea                      |
-| Kana + Han       | あ い ア イ か カ 漢 字   | kana (rounded) mixed with 漢字 | **Japan**                                         |
+| <abbr title="Greece, Cyprus">Greek</abbr> | α β γ δ ε ζ Ω Σ Δ Λ Ψ | **Ω Σ Δ Ψ Λ** (unlike Latin) | **Greece**, Cyprus |
+| <abbr title="Israel">Hebrew</abbr> | א ב ג ד ה ו ז ש | blocky, RTL, no capitals | **Israel** |
+| <abbr title="Ethiopia, Eritrea">Geʽez (Amharic)</abbr> | አ በ ገ ደ መ ሰ | boxy syllable blocks | **Ethiopia**, Eritrea |
+| <abbr title="Arab world; Persian → Iran, Urdu → Pakistan">Arabic</abbr> | ا ب ت ث ج ح خ د ر س | cursive RTL, dots above/below | Arab world; +Persian **Iran**, +Urdu **Pakistan** |
+| <abbr title="Georgia">Georgian</abbr> | ა ბ გ დ ე ვ ზ | round curves, no capitals | **Georgia** |
+| <abbr title="Armenia">Armenian</abbr> | ա բ գ դ ե զ է | hooked strokes, no capitals | **Armenia** |
+| <abbr title="Maldives">Thaana</abbr> | ހ ށ ނ ރ ބ | RTL, curvy hooks | **Maldives** |
+| <abbr title="India (Hindi), Nepal">Devanagari</abbr> | अ आ इ क ख ग घ म न | connected top bar | **India** (Hindi), **Nepal** |
+| <abbr title="Sri Lanka (Tamil), S India">Tamil</abbr> | அ ஆ க ங ச ண ம | loopy, no top bar | **Sri Lanka** (Tamil), S India |
+| <abbr title="Sri Lanka">Sinhala</abbr> | අ ආ ක ග ට ම | very round, curly | **Sri Lanka** |
+| <abbr title="Bangladesh, E India">Bengali</abbr> | অ আ ক খ গ ম ন | slanted/wavy top bar | **Bangladesh**, E India |
+| <abbr title="Myanmar">Burmese</abbr> | က ခ ဂ င စ | round "O" shapes | **Myanmar** |
+| <abbr title="Thailand">Thai</abbr> | ก ข ค ง จ ฉ ช ท น | loops & tails, no spaces | **Thailand** |
+| <abbr title="Laos">Lao</abbr> | ກ ຂ ຄ ງ ຈ | rounder, simpler than Thai | **Laos** |
+| <abbr title="Cambodia">Khmer</abbr> | ក ខ គ ង ច | tall, spiky | **Cambodia** |
+| <abbr title="China (mainland), Singapore">Han, simplified</abbr> | 车 门 见 语 国 学 | fewer strokes | **China** (mainland), Singapore |
+| <abbr title="Taiwan, Hong Kong, Macau">Han, traditional</abbr> | 車 門 見 語 國 學 | more strokes | **Taiwan**, Hong Kong, Macau |
+| <abbr title="South Korea, North Korea">Hangul</abbr> | 한 글 안 녕 하 요 | circles & blocky syllables | **South Korea**, North Korea |
+| <abbr title="Japan">Kana + Han</abbr> | あ い ア イ か カ 漢 字 | kana (rounded) mixed with 漢字 | **Japan** |
 {.table-tight}
 
 </div>
