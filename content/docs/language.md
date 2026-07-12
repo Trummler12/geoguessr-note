@@ -68,6 +68,9 @@ weight: 30
 
 ### Table of characters
 
+> [!NOTE]
+> <span class="text-rare">Greyed letters</span> flag a telling **absence** of a character — e.g. Norwegian avoids **c** (*sentrum*, not Danish *centrum*)
+
 <div class="chartable">
 
 {{< tabs "chartable" >}}
