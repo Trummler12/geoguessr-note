@@ -18,7 +18,6 @@ Unlike other website, we can only search metas by a given country. In this note,
 
 ## Contribute
 
-All documentation files are located under content/docs. You can
-
-1. Edit directly on GitHub
-2. Edit locally and preview the changes by `hugo server --minify`
+All documentation files are located under `content/docs`.  
+You can edit directly on GitHub, or run the site locally;  
+check the [README](https://github.com/dingyiyi0226/geoguessr-note#geoguessr-note) for setup instructions.
