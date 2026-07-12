@@ -54,7 +54,7 @@
   // long tables scroll inside their own box (theme already sets display:block; overflow:auto)
   // so the header row can stick to the top while scrolling the rows
   table {
-    max-height: 95vh;
+    max-height: 90vh;
   }
   table thead:has(th:not(:empty)) th {
     position: sticky;
