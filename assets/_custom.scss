@@ -11,8 +11,8 @@
     text-underline-offset: 0.15em;
   }
 
-  // toggles in the character-table tab bar
-  .chartable .chart-toggle {
+  // toggles for the character & script tables
+  .chart-toggle {
     display: inline-flex;
     align-items: center;
     gap: $padding-4;
@@ -41,6 +41,16 @@
   }
   .chartable:has(#show-regionals:checked) table tr:has(.lang-niche) {
     display: table-row;
+  }
+
+  // Script table: reveal the "Points to" column via the show-countries checkbox
+  .scripttable table th:last-child,
+  .scripttable table td:last-child {
+    display: none;
+  }
+  .scripttable:has(#show-countries:checked) table th:last-child,
+  .scripttable:has(#show-countries:checked) table td:last-child {
+    display: table-cell;
   }
 
   img.img-sm,
