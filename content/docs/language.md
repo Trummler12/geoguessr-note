@@ -78,44 +78,44 @@ weight: 30
 
 | Country | Caron | Acute | Other vowel marks | Special letters | Polygraphs |
 |:--|:--|:--|:--|:--|:--|
-| Czech | **ě ř** ň ď ť č š ž | ý á é í ó ú | **ů** | | |
-| Slovakia | **ľ** ň ď ť č š ž | **ĺ ŕ** ý á é í ó ú | ä **ô** | | |
-| Croatia | č š ž | **ć** | | **Ð đ** | lj nj **dž** |
-| Slovenia | č š ž | **ć** | | **Ð đ** | lj nj |
-|  |  |  |  |  |  |
-| Estonia | š ž | | **õ** ä ö ü | | kk (double letters) |
-| Latvia | č š ž | | **ā ē ī** ū | **ģ ķ ļ ņ Ģ** | |
-| Lithuania | č š ž | | ū **ą ę į ų ė** | | iai |
-|  |  |  |  |  |  |
-| Poland | | **ć ń ś ź** ó | ą ę | **ł ż** | sz cz rz |
-| Hungary | | **ő ű** á é í ó ú | ö ü | | gy ly ny ty sz |
-| Romania | | | **ă** â î | **ș ț** | |
-| Albania | | | **ë** | ç | dh gj xh zh |
-| Turkey | | | ö ü | **İ ı ğ ş** ç | |
+| Portugal | | á é í ó ú | **ã õ** â ê ô à | ç | nh lh |
+| <span class="lang-niche"></span><abbr title="Galician — Galicia, NW Spain">Galician</abbr> | | á é í ó ú | ü | ñ | |
+| Spain | | | | **ñ** | ll |
+| <span class="lang-niche"></span><abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | | é í ó ú | à è ò ï ü | ç | **l·l** ny |
+| France | | | | ç æ **œ** | |
+| Malta | | | | **ċ ġ ż ħ** | għ |
+| Italy | | é | à è ì ò ù | | gl gn |
 |  |  |  |  |  |  |
 | Germany, Austria | | | ä ö ü | **ß** | sch |
 | <span class="lang-niche"></span><abbr title="German-speaking Switzerland — writes ss, never ß">Switzerland</abbr> | | | ä ö ü | <span class="text-rare">ß</span> | sch |
 | <span class="lang-digraph-only"></span>Netherlands | | | ë ï | | ij |
 |  |  |  |  |  |  |
-| Norway | | | å | **ø æ** <span class="text-rare">c</span> | kk |
-| Denmark | | | å | **ø æ** | |
-| <span class="lang-niche"></span>Faroe | | á í ú ý | å | **ø æ ð Ð** | |
-| Iceland | | á é í ó ú ý | ö å | **þ æ ð Ð** | |
-| Sweden | | | å ä ö | | |
-| Finland | | | å ä ö | | kk (double letters) |
-| <span class="lang-niche"></span><abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
-|  |  |  |  |  |  |
+| <span class="lang-niche"></span>Irish | | **á é í ó ú** | | | bh dh mh |
 | <span class="lang-niche"></span>Welsh (Wales) | | á é í ó ú | **ŵ ŷ** â ê î ô û | | **ll dd** ff |
 | <span class="lang-niche"></span><abbr title="Scottish Gaelic — Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | | | **à è ì ò ù** | | bh dh fh mh |
-| <span class="lang-niche"></span>Irish | | **á é í ó ú** | | | bh dh mh |
 |  |  |  |  |  |  |
-| Spain | | | | **ñ** | ll |
-| <span class="lang-niche"></span><abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | | é í ó ú | à è ò ï ü | ç | **l·l** ny |
-| <span class="lang-niche"></span><abbr title="Galician — Galicia, NW Spain">Galician</abbr> | | á é í ó ú | ü | ñ | |
-| Portugal | | á é í ó ú | **ã õ** â ê ô à | ç | nh lh |
-| France | | | | ç æ **œ** | |
-| Italy | | é | à è ì ò ù | | gl gn |
-| Malta | | | | **ċ ġ ż ħ** | għ |
+| Denmark | | | å | **ø æ** | |
+| Norway | | | å | **ø æ** <span class="text-rare">c</span> | kk |
+| <span class="lang-niche"></span>Faroe | | á í ú ý | å | **ø æ ð Ð** | |
+| Iceland | | á é í ó ú ý | ö å | **þ æ ð Ð** | |
+| <span class="lang-niche"></span><abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
+| Sweden | | | å ä ö | | |
+| Finland | | | å ä ö | | kk (double letters) |
+|  |  |  |  |  |  |
+| Estonia | š ž | | **õ** ä ö ü | | kk (double letters) |
+| Latvia | č š ž | | **ā ē ī** ū | **ģ ķ ļ ņ Ģ** | |
+| Lithuania | č š ž | | ū **ą ę į ų ė** | | iai |
+|  |  |  |  |  |  |
+| Croatia | č š ž | **ć** | | **Ð đ** | lj nj **dž** |
+| Slovenia | č š ž | **ć** | | **Ð đ** | lj nj |
+| Czech | **ě ř** ň ď ť č š ž | ý á é í ó ú | **ů** | | |
+| Slovakia | **ľ** ň ď ť č š ž | **ĺ ŕ** ý á é í ó ú | ä **ô** | | |
+|  |  |  |  |  |  |
+| Hungary | | **ő ű** á é í ó ú | ö ü | | gy ly ny ty sz |
+| Poland | | **ć ń ś ź** ó | ą ę | **ł ż** | sz cz rz |
+| Romania | | | **ă** â î | **ș ț** | |
+| Albania | | | **ë** | ç | dh gj xh zh |
+| Turkey | | | ö ü | **İ ı ğ ş** ç | |
 {.table-tight .header-first}
 
 {{% /tab %}}
@@ -123,44 +123,44 @@ weight: 30
 
 | Country | Giveaway (rare → pins) | Also uses | Polygraphs |
 |:--|:--|:--|:--|
-| Czech | **ů ě ř** | ý č š ž ň ď ť á é í ó ú | |
-| Slovakia | **ô ŕ ĺ ľ** | ý č š ž ň ď ť ä á é í ó ú | |
-| Croatia | **đ ć** | č š ž | lj nj **dž** |
-| Slovenia | **đ ć** | č š ž | lj nj |
-|  |  |  |  |
-| Estonia | **õ** | š ž ä ö ü | kk (double letters) |
-| Latvia | **ģ ķ ļ ņ ā ē ī** | č š ž ū | |
-| Lithuania | **ė ą ę į ų** | č š ž ū | iai |
-|  |  |  |  |
-| Poland | **ł ż ć ń ś ź** | ą ę ó | sz cz rz |
-| Hungary | **ő ű** | ö ü á é í ó ú | gy ly ny ty sz |
-| Romania | **ă ș ț** | â î | |
-| Albania | **ë** | ç | dh gj xh zh |
-| Turkey | **ı İ ğ ş** | ç ö ü | |
+| Portugal | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
+| <span class="lang-niche"></span><abbr title="Galician — Galicia, NW Spain">Galician</abbr> | — | á é í ó ú ü ñ | |
+| Spain | **ñ** | | ll |
+| <span class="lang-niche"></span><abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | **l·l** | à è é í ï ò ó ú ü ç | **l·l** ny |
+| France | **œ** | ç æ | |
+| Malta | **ċ ġ ż ħ** | | għ |
+| Italy | — | à è é ì ò ù | gl gn |
 |  |  |  |  |
 | Germany, Austria | **ß** | ä ö ü | sch |
 | <span class="lang-niche"></span><abbr title="German-speaking Switzerland — writes ss, never ß">Switzerland</abbr> | — | ä ö ü <span class="text-rare">ß</span> | sch |
 | <span class="lang-digraph-only"></span>Netherlands | — | ë ï | ij |
 |  |  |  |  |
-| Norway | **ø æ** | å <span class="text-rare">c</span> | kk |
-| Denmark | **ø æ** | å | |
-| <span class="lang-niche"></span>Faroe | **ø æ ð** | á í ú ý | |
-| Iceland | **þ æ ð** | ö å á é í ó ú ý | |
-| Sweden | — | å ä ö | |
-| Finland | — | å ä ö | kk (double letters) |
-| <span class="lang-niche"></span><abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
-|  |  |  |  |
+| <span class="lang-niche"></span>Irish | — | á é í ó ú | bh dh mh |
 | <span class="lang-niche"></span>Welsh (Wales) | **ll dd ŵ ŷ** | á é í ó ú | ll dd ff |
 | <span class="lang-niche"></span><abbr title="Scottish Gaelic — Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | **à è ì ò ù** | | bh dh fh mh |
-| <span class="lang-niche"></span>Irish | — | á é í ó ú | bh dh mh |
 |  |  |  |  |
-| Spain | **ñ** | | ll |
-| <span class="lang-niche"></span><abbr title="Catalan — Catalonia, Valencia, the Balearics and Andorra">Catalan</abbr> | **l·l** | à è é í ï ò ó ú ü ç | **l·l** ny |
-| <span class="lang-niche"></span><abbr title="Galician — Galicia, NW Spain">Galician</abbr> | — | á é í ó ú ü ñ | |
-| Portugal | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
-| France | **œ** | ç æ | |
-| Italy | — | à è é ì ò ù | gl gn |
-| Malta | **ċ ġ ż ħ** | | għ |
+| Denmark | **ø æ** | å | |
+| Norway | **ø æ** | å <span class="text-rare">c</span> | kk |
+| <span class="lang-niche"></span>Faroe | **ø æ ð** | á í ú ý | |
+| Iceland | **þ æ ð** | ö å á é í ó ú ý | |
+| <span class="lang-niche"></span><abbr title="Sami — spoken across the far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
+| Sweden | — | å ä ö | |
+| Finland | — | å ä ö | kk (double letters) |
+|  |  |  |  |
+| Estonia | **õ** | š ž ä ö ü | kk (double letters) |
+| Latvia | **ģ ķ ļ ņ ā ē ī** | č š ž ū | |
+| Lithuania | **ė ą ę į ų** | č š ž ū | iai |
+|  |  |  |  |
+| Croatia | **đ ć** | č š ž | lj nj **dž** |
+| Slovenia | **đ ć** | č š ž | lj nj |
+| Czech | **ů ě ř** | ý č š ž ň ď ť á é í ó ú | |
+| Slovakia | **ô ŕ ĺ ľ** | ý č š ž ň ď ť ä á é í ó ú | |
+|  |  |  |  |
+| Hungary | **ő ű** | ö ü á é í ó ú | gy ly ny ty sz |
+| Poland | **ł ż ć ń ś ź** | ą ę ó | sz cz rz |
+| Romania | **ă ș ț** | â î | |
+| Albania | **ë** | ç | dh gj xh zh |
+| Turkey | **ı İ ğ ş** | ç ö ü | |
 {.table-tight .header-first}
 
 {{% /tab %}}
