@@ -76,7 +76,7 @@ weight: 30
 {{< tabs "chartable" >}}
 {{% tab "By diacritic type" %}}
 
-| Country | Caron | Acute | Other vowel marks | Special letters | Digraphs |
+| Country | Caron | Acute | Other vowel marks | Special letters | Polygraphs |
 |:--|:--|:--|:--|:--|:--|
 | Czech | **ě ř** ň ď ť č š ž | ý á é í ó ú | **ů** | | |
 | Slovakia | **ľ** ň ď ť č š ž | **ĺ ŕ** ý á é í ó ú | ä **ô** | | |
@@ -121,7 +121,7 @@ weight: 30
 {{% /tab %}}
 {{% tab "Giveaway view" %}}
 
-| Country | Giveaway (rare → pins) | Also uses | Digraphs |
+| Country | Giveaway (rare → pins) | Also uses | Polygraphs |
 |:--|:--|:--|:--|
 | Czech | **ů ě ř** | ý č š ž ň ď ť á é í ó ú | |
 | Slovakia | **ô ŕ ĺ ľ** | ý č š ž ň ď ť ä á é í ó ú | |
@@ -164,8 +164,8 @@ weight: 30
 {.table-tight .header-first}
 
 {{% /tab %}}
-<label class="chart-toggle"><input type="checkbox" id="show-digraphs"> Digraphs</label>
-<label class="chart-toggle"><input type="checkbox" id="show-regionals"> Regionals</label>
+<label class="chart-toggle" title="Adds the polygraph column plus rows whose only strong tell is a di-/trigraph (e.g. Dutch ij)"><input type="checkbox" id="show-digraphs"> Polygraphs</label>
+<label class="chart-toggle" title="Adds minority & regional languages (Welsh, Catalan, Sami, Swiss German …)"><input type="checkbox" id="show-regionals"> Regionals</label>
 {{< /tabs >}}
 
 </div>
