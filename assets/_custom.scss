@@ -51,6 +51,25 @@
     background: color-mix(in srgb, var(--gray-100), var(--gray-200));
   }
 
+  // let tables scroll with the page so header rows can stick to the viewport
+  // (overrides the theme's display:block; overflow:auto, which traps sticky)
+  table {
+    display: table;
+    overflow: visible;
+  }
+  // opt-out for very wide tables that need their own horizontal scroll
+  table.table-scroll {
+    display: block;
+    overflow: auto;
+  }
+
+  // keep non-empty header rows in view while scrolling long tables
+  table thead:has(th:not(:empty)) th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
   // reset styles settings for details under blockquote
   blockquote details summary:first-child {
     margin-top: -$padding-16;
