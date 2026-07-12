@@ -51,19 +51,11 @@
     background: color-mix(in srgb, var(--gray-100), var(--gray-200));
   }
 
-  // let tables scroll with the page so header rows can stick to the viewport
-  // (overrides the theme's display:block; overflow:auto, which traps sticky)
+  // long tables scroll inside their own box (theme already sets display:block; overflow:auto)
+  // so the header row can stick to the top while scrolling the rows
   table {
-    display: table;
-    overflow: visible;
+    max-height: 95vh;
   }
-  // opt-out for very wide tables that need their own horizontal scroll
-  table.table-scroll {
-    display: block;
-    overflow: auto;
-  }
-
-  // keep non-empty header rows in view while scrolling long tables
   table thead:has(th:not(:empty)) th {
     position: sticky;
     top: 0;
