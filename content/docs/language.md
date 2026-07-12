@@ -87,7 +87,7 @@ weight: 30
 | <abbr title="Italy, San Marino, Vatican, S Switzerland">Italian</abbr> | | é | à è ì ò ù | | gl gn |
 |  |  |  |  |  |  |
 | <abbr title="Germany, Austria, Liechtenstein, Luxembourg, E Belgium, N Italy (South Tyrol); Switzerland writes ss (own row)">German</abbr> | | | ä ö ü | **ß** | sch |
-| <span class="lang-niche"></span><abbr title="German-speaking Switzerland (Zürich, Bern, Basel …) — writes ss, never ß">Swiss German</abbr> | | | ä ö ü | <span class="text-rare">ß</span> | sch |
+| <span class="lang-niche"></span><abbr title="German-speaking Switzerland (Zürich, Bern, Basel …) — writes ss, never ß">Swiss German</abbr> | | | ä ö ü | <span class="text-rare">**ß**</span> | sch |
 | <span class="lang-digraph-only"></span><abbr title="Netherlands, Belgium (Flanders), Suriname">Dutch</abbr> | | | ë ï | | ij |
 |  |  |  |  |  |  |
 | <span class="lang-niche"></span><abbr title="Ireland — Gaeltacht regions; bilingual road signs nationwide">Irish</abbr> | | **á é í ó ú** | | | bh dh mh |
@@ -95,7 +95,7 @@ weight: 30
 | <span class="lang-niche"></span><abbr title="Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | | | **à è ì ò ù** | | bh dh fh mh |
 |  |  |  |  |  |  |
 | <abbr title="Denmark, Greenland, Faroe Islands (alongside Faroese)">Danish</abbr> | | | å | **ø æ** | |
-| <abbr title="Norway">Norwegian</abbr> | | | å | **ø æ** <span class="text-rare">c</span> | kk |
+| <abbr title="Norway">Norwegian</abbr> | | | å | **ø æ** <span class="text-rare">**c**</span> | kk |
 | <span class="lang-niche"></span><abbr title="Faroe Islands">Faroese</abbr> | | á í ú ý | å | **ø æ ð Ð** | |
 | <abbr title="Iceland">Icelandic</abbr> | | á é í ó ú ý | ö å | **þ æ ð Ð** | |
 | <span class="lang-niche"></span><abbr title="far north of Norway, Sweden and Finland">Northern Sami</abbr> | č š ž | á | | **ŋ ŧ đ** | |
@@ -126,21 +126,21 @@ weight: 30
 | <abbr title="Portugal, Brazil, Angola, Mozambique, Cape Verde, East Timor">Portuguese</abbr> | **ã õ** | ç â ê ô á é í ó ú à | nh lh |
 | <span class="lang-niche"></span><abbr title="Galicia, NW Spain">Galician</abbr> | — | á é í ó ú ü ñ | |
 | <abbr title="Spain, Mexico, most of Central & South America (except Brazil)">Spanish</abbr> | **ñ** | | ll |
-| <span class="lang-niche"></span><abbr title="Catalonia, Valencia, the Balearics, Andorra">Catalan</abbr> | **l·l** | à è é í ï ò ó ú ü ç | **l·l** ny |
+| <span class="lang-niche"></span><abbr title="Catalonia, Valencia, the Balearics, Andorra">Catalan</abbr> | — | à è é í ï ò ó ú ü ç | **l·l** ny |
 | <abbr title="France, S Belgium, W Switzerland, Luxembourg, Monaco, Canada (Québec), much of W/C Africa">French</abbr> | **œ** | ç æ | |
 | <abbr title="Malta">Maltese</abbr> | **ċ ġ ż ħ** | | għ |
 | <abbr title="Italy, San Marino, Vatican, S Switzerland">Italian</abbr> | — | à è é ì ò ù | gl gn |
 |  |  |  |  |
 | <abbr title="Germany, Austria, Liechtenstein, Luxembourg, E Belgium, N Italy (South Tyrol); Switzerland writes ss (own row)">German</abbr> | **ß** | ä ö ü | sch |
-| <span class="lang-niche"></span><abbr title="German-speaking Switzerland (Zürich, Bern, Basel …) — writes ss, never ß">Swiss German</abbr> | — | ä ö ü <span class="text-rare">ß</span> | sch |
+| <span class="lang-niche"></span><abbr title="German-speaking Switzerland (Zürich, Bern, Basel …) — writes ss, never ß">Swiss German</abbr> | <span class="text-rare">**ß**</span> | ä ö ü | sch |
 | <span class="lang-digraph-only"></span><abbr title="Netherlands, Belgium (Flanders), Suriname">Dutch</abbr> | — | ë ï | ij |
 |  |  |  |  |
 | <span class="lang-niche"></span><abbr title="Ireland — Gaeltacht regions; bilingual road signs nationwide">Irish</abbr> | — | á é í ó ú | bh dh mh |
-| <span class="lang-niche"></span><abbr title="Wales (UK)">Welsh</abbr> | **ll dd ŵ ŷ** | á é í ó ú | ll dd ff |
+| <span class="lang-niche"></span><abbr title="Wales (UK)">Welsh</abbr> | **ŵ ŷ** | á é í ó ú | **ll dd** ff |
 | <span class="lang-niche"></span><abbr title="Highlands and Hebrides, NW Scotland">Scottish Gaelic</abbr> | **à è ì ò ù** | | bh dh fh mh |
 |  |  |  |  |
 | <abbr title="Denmark, Greenland, Faroe Islands (alongside Faroese)">Danish</abbr> | **ø æ** | å | |
-| <abbr title="Norway">Norwegian</abbr> | **ø æ** | å <span class="text-rare">c</span> | kk |
+| <abbr title="Norway">Norwegian</abbr> | **ø æ** <span class="text-rare">**c**</span> | å | kk |
 | <span class="lang-niche"></span><abbr title="Faroe Islands">Faroese</abbr> | **ø æ ð** | á í ú ý | |
 | <abbr title="Iceland">Icelandic</abbr> | **þ æ ð** | ö å á é í ó ú ý | |
 | <span class="lang-niche"></span><abbr title="far north of Norway, Sweden and Finland">Northern Sami</abbr> | **ŋ ŧ đ** | á č š ž | |
