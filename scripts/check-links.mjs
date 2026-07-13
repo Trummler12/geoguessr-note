@@ -24,6 +24,20 @@ const IGNORE = [
   /\binaturalist\.org/, // 403s the bot UA; pages load fine in a browser
 ];
 
+// Private/loopback/link-local hosts are never fetched: a public docs link should
+// never point there, and fetching one on untrusted input would be an SSRF vector.
+// Not airtight — a public hostname resolving to a private IP still gets through.
+const BLOCKED_HOST = [
+  /^localhost$/i,
+  /^127\./,
+  /^10\./,
+  /^192\.168\./,
+  /^169\.254\./,
+  /^172\.(1[6-9]|2\d|3[01])\./,
+  /^\[?::1\]?$/,
+  /^\[?f[cd]/i,
+];
+
 const SKIP_DIRS = new Set(['.git', 'node_modules', 'themes', 'public', 'resources']);
 const CONCURRENCY = 6;
 const TIMEOUT_MS = 20000;
@@ -83,8 +97,19 @@ async function requestStatus(url, method) {
   return { status: res.status, retryAfter: parseRetryAfter(res.headers.get('retry-after')) };
 }
 
+function isBlockedHost(url) {
+  let host;
+  try {
+    host = new URL(url).hostname;
+  } catch {
+    return false;
+  }
+  return BLOCKED_HOST.some((re) => re.test(host));
+}
+
 // Returns { class: 'ok' | 'warn' | 'fail', status, error? }
 async function reachable(url) {
+  if (isBlockedHost(url)) return { class: 'fail', status: 0, error: 'blocked host (SSRF guard)' };
   for (let attempt = 0; ; attempt++) {
     let status = 0;
     let retryAfter = null;
