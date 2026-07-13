@@ -127,7 +127,7 @@ async function runPool(items, worker, size) {
   return results;
 }
 
-const files = await collectMarkdown(ROOT);
+const files = [join(ROOT, 'README.md'), ...(await collectMarkdown(join(ROOT, 'content')))];
 const usage = new Map(); // url -> Set(relative file paths)
 for (const file of files) {
   const text = await readFile(file, 'utf8');
