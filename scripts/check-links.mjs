@@ -53,7 +53,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 function parseRetryAfter(value) {
   if (!value) return null;
   const secs = Number(value);
-  if (Number.isFinite(secs)) return secs;
+  if (Number.isFinite(secs)) return Math.max(0, secs);
   // Retry-After may also be an HTTP-date rather than delta-seconds.
   const date = Date.parse(value);
   return Number.isNaN(date) ? null : Math.max(0, (date - Date.now()) / 1000);
