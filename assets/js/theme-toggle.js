@@ -36,31 +36,52 @@
     } catch (e) {}
   }
 
-  function resolve() {
+  function explicitTheme() {
     const attr = root.getAttribute('data-theme');
     if (isTheme(attr)) return attr;
 
     const saved = safeGet(STORAGE_KEY);
     if (isTheme(saved)) return saved;
 
-    return systemTheme();
+    return null;
   }
 
-  function render(theme) {
+  function syncControls(theme) {
+    const t = isTheme(theme) ? theme : systemTheme();
+    if (icon) icon.src = t === 'dark' ? sun : moon;
+    if (button) button.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false');
+  }
+
+  function applyExplicit(theme) {
     const t = isTheme(theme) ? theme : systemTheme();
     root.setAttribute('data-theme', t);
-    if (icon) icon.src = t === 'dark' ? sun : moon;
+    syncControls(t);
   }
 
-  // Reflect the effective theme (e.g. keep the icon in sync) without persisting it,
-  // so "follow the system" survives until the user actively chooses.
-  render(resolve());
+  function applySystem() {
+    root.removeAttribute('data-theme'); // keep BookTheme='auto' (CSS) in control
+    syncControls(systemTheme());
+  }
+
+  const explicit = explicitTheme();
+  if (explicit) applyExplicit(explicit);
+  else applySystem();
 
   if (button) {
     button.addEventListener('click', function () {
-      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      render(next);
+      const current = root.getAttribute('data-theme') || systemTheme();
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyExplicit(next);
       safeSet(STORAGE_KEY, next); // persist only on explicit choice
     });
   }
-})();
+
+  // If the user hasn't chosen explicitly, keep following system changes.
+  const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+  if (mq && !explicit) {
+    const onChange = function () {
+      if (!isTheme(safeGet(STORAGE_KEY))) applySystem();
+    };
+    if (mq.addEventListener) mq.addEventListener('change', onChange);
+    else if (mq.addListener) mq.addListener(onChange);
+  }
