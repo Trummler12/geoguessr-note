@@ -12,8 +12,9 @@
 
   // System preference, with DEFAULT_THEME as the last resort for 'no-preference'.
   function systemTheme() {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) return 'light';
+    const mm = window.matchMedia;
+    if (mm && mm('(prefers-color-scheme: dark)').matches) return 'dark';
+    if (mm && mm('(prefers-color-scheme: light)').matches) return 'light';
     return DEFAULT_THEME;
   }
 
