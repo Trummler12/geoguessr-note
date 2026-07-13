@@ -235,16 +235,26 @@ An isolated language
 
 ### Russia
 
-- **<abbr title="~56°N 47°E · Middle Volga, W of Tatarstan">Chuvashia (Cheboksary)</abbr>**: ӑ ӗ ҫ ӳ
-- **<abbr title="~57°N 48°E · Middle Volga, north bank">Mari El (Yoshkar-Ola)</abbr>**: ҥ ӧ ӱ
-- **<abbr title="~56°N 49°E · Middle Volga">Tatarstan (Kazan)</abbr>**: җ ң ө ү һ ә
-- **<abbr title="~57°N 53°E · Kama basin, W of the Urals">Udmurtia (Izhevsk)</abbr>**: ӝ ӟ ӥ ӧ ӵ
-- **<abbr title="~55°N 56°E · Southern Urals">Bashkortostan (Ufa)</abbr>**: ғ ҙ ҡ ң ө ҫ ү һ ә
-- **<abbr title="~62°N 51°E · far NE European Russia">Komi (Syktyvkar)</abbr>**: і ӧ
-- **<abbr title="~46°N 44°E · NW Caspian, N of the Caucasus">Kalmykia (Elista)</abbr>**: ә һ җ ң ө ү
-- **<abbr title="~43°N 46°E · North Caucasus">Chechnya (Grozny)</abbr>**: аь къ оь уь хь юь яь ӏ гӏ кӏ пӏ тӏ хӏ цӏ чӏ кх
-- **<abbr title="~52°N 94°E · S Siberia, Mongolian border">Tuva (Kyzyl)</abbr>**: ң ө ү
-- **<abbr title="~52°N 108°E · E of Lake Baikal, Mongolian border">Buryatia (Ulan-Ude)</abbr>**: ө ү һ
+<div class="russiatable">
+
+<label class="chart-toggle" title="Show a trailing column with each republic's capital"><input type="checkbox" id="show-capitals"> show Capital</label>
+
+| | | | | | | | | | | | | | | |
+|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|
+| **<abbr title="Kazan · ~56°N 49°E · Middle Volga">Tatarstan</abbr>** | ә | ө | ү | ң | һ | җ | | | | | | | | Kazan |
+| **<abbr title="Ufa · ~55°N 56°E · Southern Urals">Bashkortostan</abbr>** | ә | ө | ү | ң | һ | | ҙ | ҫ | | ҡ | ғ | | | Ufa |
+| **<abbr title="Elista · ~46°N 44°E · NW Caspian, N of the Caucasus">Kalmykia</abbr>** | ә | ө | ү | ң | һ | җ | | | | | | | | Elista |
+| **<abbr title="Kyzyl · ~52°N 94°E · S Siberia, Mongolian border">Tuva</abbr>** | | ө | ү | ң | | | | | | | | | | Kyzyl |
+| **<abbr title="Ulan-Ude · ~52°N 108°E · E of Lake Baikal, Mongolian border">Buryatia</abbr>** | | ө | ү | | һ | | | | | | | | | Ulan-Ude |
+| **<abbr title="Yoshkar-Ola · ~57°N 48°E · Middle Volga, north bank">Mari El</abbr>** | | ӧ | ӱ | ҥ | | | | | | | | | | Yoshkar-Ola |
+| **<abbr title="Izhevsk · ~57°N 53°E · Kama basin, W of the Urals">Udmurtia</abbr>** | | ӧ | | | | ӝ | ӟ | | ӥ | | | ӵ | | Izhevsk |
+| **<abbr title="Syktyvkar · ~62°N 51°E · far NE European Russia">Komi</abbr>** | | ӧ | | | | | | | і | | | | | Syktyvkar |
+| **<abbr title="Cheboksary · ~56°N 47°E · Middle Volga, W of Tatarstan">Chuvashia</abbr>** | ӑ | | ӳ | | | | | ҫ | | | | | ӗ | Cheboksary |
+{.table-tight .char-grid .sticky-col}
+
+</div>
+
+- **<abbr title="Grozny · ~43°N 46°E · North Caucasus">Chechnya</abbr>** (own system, digraphs + palochka): аь къ оь уь хь юь яь ӏ гӏ кӏ пӏ тӏ хӏ цӏ чӏ кх
 - **else → Standard Russian**: none of the extra letters above; the vast majority of the country, incl. Moscow, St. Petersburg and most of Siberia
 
 ### Summary
