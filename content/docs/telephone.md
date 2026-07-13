@@ -4,9 +4,9 @@ weight: 100
 
 # Telephone
 
-Every country is reachable by an international **country calling code** (`+XX`).  
+Every country is reachable by an international **country calling code** (`+X…`).  
 This world map is the quickest first anchor:  
-First identify the code, then narrow down further by area code (see below; limited to countries that use one)
+First identify the code, then narrow down further by area code (see below; limited to countries that use one).
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Country_calling_codes_map.svg" alt="World map of international country calling codes" loading="lazy" style="width: 100%;" />
