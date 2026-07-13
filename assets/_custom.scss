@@ -56,9 +56,9 @@
     margin-top: -$padding-16;
   }
 
-  // Nested <details>: theme's descendant `details[open] summary` rules leak
-  // into a collapsed nested block (rotated caret + lost negative margin = extra gap).
-  details:not([open]) > summary {
+  // Nested <details>: theme's descendant `details[open] summary` rules leak into a
+  // collapsed nested block (rotated caret + lost negative margin). Scope to that case.
+  details[open] details:not([open]) > summary {
     margin-bottom: -$padding-16;
 
     &::before {
