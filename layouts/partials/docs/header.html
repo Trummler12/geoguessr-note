@@ -13,6 +13,8 @@
       <img src="{{ partial "docs/icon" "toc" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Table of Contents" }}" />
       {{ end }}
     </label>
+    {{- /* The toggle needs JS to work, so hide it for no-JS visitors. */ -}}
+    <noscript><style>#theme-toggle { display: none; }</style></noscript>
     <button id="theme-toggle" type="button" aria-label="Toggle theme">
       <img id="theme-toggle-icon" src="{{ "svg/moon.svg" | relURL }}" class="book-icon" alt="" aria-hidden="true" />
     </button>
