@@ -57,6 +57,7 @@
   table {
     display: block;
     overflow: auto;
+    max-height: 90vh; // fallback for browsers without dvh
     max-height: 90dvh;
   }
   table thead:has(th:not(:empty)) th {
