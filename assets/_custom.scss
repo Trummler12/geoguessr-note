@@ -55,6 +55,12 @@
   blockquote details summary:first-child {
     margin-top: -$padding-16;
   }
+
+  // Nested <details>: theme's descendant selector rotates inner markers too;
+  // keep a collapsed nested block's caret pointing right.
+  details:not([open]) > summary::before {
+    transform: none;
+  }
 }
 
 .book-search {
