@@ -6,7 +6,7 @@ enableGitInfo = true
 
 [menus]
 [[menus.after]]
-  name = "Github"
+  name = "GitHub"
   url = "https://github.com/dingyiyi0226/geoguessr-note"
 [params]
   BookTheme = 'light'
