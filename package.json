@@ -4,6 +4,9 @@
   "private": true,
   "description": "Tooling for the Geoguessr Note site (the site itself is built with Hugo).",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "test": "node scripts/check-links.mjs",
     "check-links": "node scripts/check-links.mjs"
