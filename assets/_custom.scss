@@ -87,6 +87,24 @@
     color: var(--gray-500);
   }
 
+  // Character matrix (Cyrillic non-Russian): one column per letter so shared
+  // letters line up, but kept borderless with near-space gaps so it still reads
+  // like the old inline list. Empty header row is hidden.
+  .char-grid thead {
+    display: none;
+  }
+  .char-grid th,
+  .char-grid td {
+    padding-left: 0.18em;
+    padding-right: 0.18em;
+    text-align: center;
+  }
+  .char-grid td:first-child {
+    text-align: left;
+    padding-right: 0.7em;
+    white-space: nowrap;
+  }
+
   // overwrite default
   h3 {
     font-weight: bolder;

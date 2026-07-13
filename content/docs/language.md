@@ -212,17 +212,26 @@ An isolated language
 
 - [Federal subjects of russia](https://en.wikipedia.org/wiki/Federal_subjects_of_Russia)
 - **Russian**: а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
-- Characters in Russian but not in the following regions are <span class="text-rare">marked in grey</span>
+- Letters in Russian but absent from a given language are <span class="text-rare">marked in grey</span>
 
-### Non-Russian countries
+### Non-Russian languages
 
-- **Serbia**: њ љ џ ј ђ <span class="text-rare">ъ й ё ы э</span>
-- **Macedonia**: њ љ џ ј ѕ ѓ ќ <span class="text-rare">ъ й ё ы э</span>
-- **Bulgaria**: ѕ <span class="text-rare">й ё ы э</span>
-- **Ukraine**: ґ є і ї <span class="text-rare">ъ й ё ы э</span>
-- **Kazakhstan**: ә ғ қ ң ө ұ ү һ
-- **Kyrgyzstan**: ң ө ү
-- **Mongolia**: ө ү
+| | | | | | | | | | | | | |
+|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **<abbr title="Serbia, Montenegro, Bosnia (Republika Srpska)">Serbian</abbr>** | њ | љ | џ | ј | | ђ | ћ | <span class="text-rare">ъ</span> | <span class="text-rare">й</span> | <span class="text-rare">ё</span> | <span class="text-rare">ы</span> | <span class="text-rare">э</span> |
+| **<abbr title="North Macedonia">Macedonian</abbr>** | њ | љ | џ | ј | ѕ | ѓ | ќ | <span class="text-rare">ъ</span> | <span class="text-rare">й</span> | <span class="text-rare">ё</span> | <span class="text-rare">ы</span> | <span class="text-rare">э</span> |
+| **<abbr title="Bulgaria — ъ is a frequent vowel here, unlike Russian">Bulgarian</abbr>** | | | | | | | | | | <span class="text-rare">ё</span> | <span class="text-rare">ы</span> | <span class="text-rare">э</span> |
+| **<abbr title="Ukraine">Ukrainian</abbr>** | | | ї | і | є | ґ | | <span class="text-rare">ъ</span> | | <span class="text-rare">ё</span> | <span class="text-rare">ы</span> | <span class="text-rare">э</span> |
+| **<abbr title="Belarus">Belarusian</abbr>** | | | | і | | | ў | <span class="text-rare">ъ</span> | <span class="text-rare">и</span> | | <span class="text-rare">щ</span> | |
+{.table-tight .char-grid}
+
+| | | | | | | | | | | |
+|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **<abbr title="Kazakhstan">Kazakh</abbr>** | ә | ғ | қ | ң | ө | ұ | ү | һ | і | |
+| **<abbr title="Kyrgyzstan">Kyrgyz</abbr>** | | | | ң | ө | | ү | | | |
+| **<abbr title="Mongolia">Mongolian</abbr>** | | | | | ө | | ү | | | |
+| **<abbr title="Tajikistan — sparse GeoGuessr coverage; also lacks ц щ ы ь">Tajik</abbr>** | | ғ | қ | | | ӯ | | ҳ | ӣ | ҷ |
+{.table-tight .char-grid}
 
 ### Russia
 
