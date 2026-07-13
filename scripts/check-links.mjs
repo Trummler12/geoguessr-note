@@ -6,6 +6,10 @@
 //
 // No dependencies — uses the global fetch from Node 18+.
 //
+// Intended for local / trusted CI use only: it fetches every URL it finds, and
+// the BLOCKED_HOST guard is best-effort (see its note), so don't run it on
+// untrusted input without proper resolved-IP SSRF hardening.
+//
 // Result classes:
 //   OK    2xx / 3xx
 //   WARN  403 / 405 / 429 / 503 — reachable but blocked or throttled; not counted as failure
