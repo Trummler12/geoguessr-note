@@ -72,7 +72,7 @@ async function collectMarkdown(dir, out = []) {
 }
 
 const URL_PATTERNS = [
-  /\]\((https?:\/\/[^)\s]+)\)/g, // [text](url) and ![alt](url)
+  /\]\(\s*(https?:\/\/[^)\s]+)\s*\)/g, // [text](url) and ![alt](url), tolerating spaces inside ()
   /[\w:.-]+\s*=\s*["'](https?:\/\/[^"']+)["']/g, // any attr="url": href, src, shortcode params (link=, …)
 ];
 
