@@ -116,7 +116,7 @@ weight: 30
 | <abbr title="Romania, Moldova">Romanian</abbr> | | | **ă** â î | **ș ț** | |
 | <abbr title="Albania, Kosovo, W North Macedonia, S Montenegro">Albanian</abbr> | | | **ë** | ç | dh gj xh zh |
 | <abbr title="Turkey, Northern Cyprus">Turkish</abbr> | | | ö ü | **İ ı ğ ş** ç | |
-{.table-tight .header-first}
+{.table-tight .header-first .sticky-col}
 
 {{% /tab %}}
 {{% tab "Giveaway view" %}}
@@ -161,7 +161,7 @@ weight: 30
 | <abbr title="Romania, Moldova">Romanian</abbr> | **ă ș ț** | â î | |
 | <abbr title="Albania, Kosovo, W North Macedonia, S Montenegro">Albanian</abbr> | **ë** | ç | dh gj xh zh |
 | <abbr title="Turkey, Northern Cyprus">Turkish</abbr> | **ı İ ğ ş** | ç ö ü | |
-{.table-tight .header-first}
+{.table-tight .header-first .sticky-col}
 
 {{% /tab %}}
 <label class="chart-toggle" title="Adds the polygraph column plus rows whose only strong tell is a di-/trigraph (e.g. Dutch ij)"><input type="checkbox" id="show-digraphs"> Polygraphs</label>
@@ -193,7 +193,7 @@ The Iberian Romance languages look alike; these are the quickest tells. Romansh 
 | Portuguese | e | -ção, -dade, -mente, -ismo | rua | — | — | — |
 | Galician | e | -ción, -dade | rúa | — | — | concello; A / O town names (A Pena, O Burgo) |
 | Romansh | e | — | via | — | — | digraphs tg, tsch |
-{.table-tight .header-first}
+{.table-tight .header-first .sticky-col}
 
 ## Basque
 
@@ -279,7 +279,7 @@ An isolated language
 | <abbr title="Taiwan, Hong Kong, Macau">Han, traditional</abbr> | 車 門 見 語 國 學 | more strokes | **Taiwan**, Hong Kong, Macau |
 | <abbr title="South Korea, North Korea">Hangul</abbr> | 한 글 안 녕 하 요 | circles & blocky syllables | **South Korea**, North Korea |
 | <abbr title="Japan">Kana + Han</abbr> | あ い ア イ か カ 漢 字 | kana (rounded) mixed with 漢字 | **Japan** |
-{.table-tight}
+{.table-tight .sticky-col}
 
 </div>
 
