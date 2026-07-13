@@ -107,7 +107,7 @@ async function reachable(url) {
 
     const transient = error != null || RETRY_STATUS.has(status);
     if (transient && attempt < MAX_RETRIES) {
-      const backoff = retryAfter ? retryAfter * 1000 : Math.min(8000, 500 * 2 ** attempt);
+      const backoff = retryAfter != null ? retryAfter * 1000 : Math.min(8000, 500 * 2 ** attempt);
       await sleep(backoff + Math.random() * 300);
       continue;
     }
