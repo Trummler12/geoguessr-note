@@ -33,6 +33,15 @@ const IGNORE = [];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+function parseRetryAfter(value) {
+  if (!value) return null;
+  const secs = Number(value);
+  if (Number.isFinite(secs)) return secs;
+  // Retry-After may also be an HTTP-date rather than delta-seconds.
+  const date = Date.parse(value);
+  return Number.isNaN(date) ? null : Math.max(0, (date - Date.now()) / 1000);
+}
+
 async function collectMarkdown(dir, out = []) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
@@ -68,8 +77,7 @@ async function requestStatus(url, method) {
   try {
     await res.body?.cancel(); // don't download the body (some maps are several MB)
   } catch {}
-  const retryAfter = Number(res.headers.get('retry-after'));
-  return { status: res.status, retryAfter: Number.isFinite(retryAfter) ? retryAfter : null };
+  return { status: res.status, retryAfter: parseRetryAfter(res.headers.get('retry-after')) };
 }
 
 // Returns { class: 'ok' | 'warn' | 'fail', status, error? }
