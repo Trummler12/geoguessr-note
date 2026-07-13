@@ -79,9 +79,13 @@ async function reachable(url) {
     let retryAfter = null;
     let error = null;
     try {
-      // Prefer HEAD; fall back to GET (many CDNs reject or mishandle HEAD).
+      // Prefer HEAD; fall back to GET (many CDNs reject or mishandle HEAD), but
+      // not for retryable statuses — a GET would just double the load
+      // on a host that's already throttling us.
       let r = await requestStatus(url, 'HEAD');
-      if (!(r.status >= 200 && r.status < 400)) r = await requestStatus(url, 'GET');
+      if (!(r.status >= 200 && r.status < 400) && !RETRY_STATUS.has(r.status)) {
+        r = await requestStatus(url, 'GET');
+      }
       status = r.status;
       retryAfter = r.retryAfter;
     } catch (err) {
