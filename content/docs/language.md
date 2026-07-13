@@ -214,12 +214,15 @@ An isolated language
 - **Russian**: а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
 - Characters in Russian but not in the following regions are <span class="text-rare">marked in grey</span>
 
-### Balkan
+### Non-Russian countries
 
 - **Serbia**: њ љ џ ј ђ <span class="text-rare">ъ й ё ы э</span>
 - **Macedonia**: њ љ џ ј ѕ ѓ ќ <span class="text-rare">ъ й ё ы э</span>
 - **Bulgaria**: ѕ <span class="text-rare">й ё ы э</span>
 - **Ukraine**: ґ є і ї <span class="text-rare">ъ й ё ы э</span>
+- **Kazakhstan**: ә ғ қ ң ө ұ ү һ
+- **Kyrgyzstan**: ң ө ү
+- **Mongolia**: ө ү
 
 ### Russia
 
@@ -234,12 +237,6 @@ An isolated language
 - **<abbr title="~52°N 94°E · S Siberia, Mongolian border">Tuva (Kyzyl)</abbr>**: ң ө ү
 - **<abbr title="~52°N 108°E · E of Lake Baikal, Mongolian border">Buryatia (Ulan-Ude)</abbr>**: ө ү һ
 - **else → Standard Russian**: none of the extra letters above; the vast majority of the country, incl. Moscow, St. Petersburg and most of Siberia
-
-### Central Asia
-
-- **Kazakhstan**: ә ғ қ ң ө ұ ү һ
-- **Kyrgyzstan**: ң ө ү
-- **Mongolia**: ө ү
 
 ### Summary
 
