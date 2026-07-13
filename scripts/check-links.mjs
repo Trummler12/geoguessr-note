@@ -38,8 +38,10 @@ const BLOCKED_HOST = [
   /^192\.168\./,
   /^169\.254\./,
   /^172\.(1[6-9]|2\d|3[01])\./,
-  /^\[?::1\]?$/,
-  /^\[?f[cd]/i,
+  // IPv6 literals only (URL.hostname brackets them), so real hostnames like fdroid.org aren't caught
+  /^\[::1\]$/, // loopback
+  /^\[f[cd]/i, // ULA fc00::/7
+  /^\[fe[89ab]/i, // link-local fe80::/10
 ];
 
 const SKIP_DIRS = new Set(['.git', 'node_modules', 'themes', 'public', 'resources']);
