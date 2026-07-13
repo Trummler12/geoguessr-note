@@ -78,12 +78,16 @@
   }
 
   // If the user hasn't chosen explicitly, keep following system changes.
-  const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-  if (mq && !explicit) {
+  // Listen to both queries: a dark-only listener misses light <-> no-preference
+  // transitions, which never flip the dark query and so never fire.
+  if (window.matchMedia && !explicit) {
     const onChange = function () {
       if (!isTheme(safeGet(STORAGE_KEY))) applySystem();
     };
-    if (mq.addEventListener) mq.addEventListener('change', onChange);
-    else if (mq.addListener) mq.addListener(onChange);
+    ['(prefers-color-scheme: dark)', '(prefers-color-scheme: light)'].forEach(function (q) {
+      const mq = window.matchMedia(q);
+      if (mq.addEventListener) mq.addEventListener('change', onChange);
+      else if (mq.addListener) mq.addListener(onChange);
+    });
   }
 })();
