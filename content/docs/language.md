@@ -184,32 +184,16 @@ weight: 30
 
 ## Romance languages
 
-### Spanish
+The Iberian Romance languages look alike; these are the quickest tells. Romansh (Graubünden, CH) has no unique letter — its giveaway is the digraphs `tg` / `tsch`.
 
-- **y** for and
-- -ción, -dad, -miento
-- todas direcciones
-- supermercado
-- calle, avenida
-
-### Catalan
-
-- **i** for and
-- -ció, -tat, -ment
-- totes direccions
-- supermercat
-- carrer, avinguda
-
-### Portuguese
-
-- **e** for and
-- -ção, -dade, -mente, -ismo
-
-### Galician
-
-- Rúa (without accent in portuguese)
-- Town name with O, A articles: **A Pena, O Burgo**
-- **concello** for municipality
+| Language | "and" | suffixes | street | supermarket | "all directions" | other giveaways |
+|:--|:--|:--|:--|:--|:--|:--|
+| Spanish | y | -ción, -dad, -miento | calle, avenida | supermercado | todas direcciones | — |
+| Catalan | i | -ció, -tat, -ment | carrer, avinguda | supermercat | totes direccions | — |
+| Portuguese | e | -ção, -dade, -mente, -ismo | rua | — | — | — |
+| Galician | e | -ción, -dade | rúa | — | — | concello; A / O town names (A Pena, O Burgo) |
+| Romansh | e | — | via | — | — | digraphs tg, tsch |
+{.table-tight .header-first}
 
 ## Basque
 
