@@ -103,19 +103,19 @@ async function requestStatus(url, method) {
   return { status: res.status, retryAfter: parseRetryAfter(res.headers.get('retry-after')) };
 }
 
-function isBlockedHost(url) {
-  let host;
-  try {
-    host = new URL(url).hostname;
-  } catch {
-    return false;
-  }
+function isBlockedHost(host) {
   return BLOCKED_HOST.some((re) => re.test(host));
 }
 
 // Returns { class: 'ok' | 'warn' | 'fail', status, error? }
 async function reachable(url) {
-  if (isBlockedHost(url)) return { class: 'fail', status: 0, error: 'blocked host (SSRF guard)' };
+  let host;
+  try {
+    host = new URL(url).hostname;
+  } catch {
+    return { class: 'fail', status: 0, error: 'invalid URL' };
+  }
+  if (isBlockedHost(host)) return { class: 'fail', status: 0, error: 'blocked host (SSRF guard)' };
   for (let attempt = 0; ; attempt++) {
     let status = 0;
     let retryAfter = null;
