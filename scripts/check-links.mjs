@@ -18,6 +18,12 @@ import { dirname, join, resolve, relative } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 
+// Hosts to skip entirely (never fetched): known-good but they block automated
+// checks, so they'd only ever show up as noise. Add a RegExp per host to silence.
+const IGNORE = [
+  /\binaturalist\.org/, // 403s the bot UA; pages load fine in a browser
+];
+
 const SKIP_DIRS = new Set(['.git', 'node_modules', 'themes', 'public', 'resources']);
 const CONCURRENCY = 6;
 const TIMEOUT_MS = 20000;
@@ -27,9 +33,6 @@ const UA =
 
 const WARN_STATUS = new Set([403, 405, 429, 503]); // reachable but blocked/throttled
 const RETRY_STATUS = new Set([429, 503]);
-
-// Add a RegExp here to skip a host that blocks automated checks but is known-good.
-const IGNORE = [];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
