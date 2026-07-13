@@ -48,6 +48,7 @@ const SKIP_DIRS = new Set(['.git', 'node_modules', 'themes', 'public', 'resource
 const CONCURRENCY = 6;
 const TIMEOUT_MS = 20000;
 const MAX_RETRIES = 4; // for throttling / transient errors
+const MAX_BACKOFF_MS = 30000; // cap even a large Retry-After so a run can't hang
 const UA =
   'Mozilla/5.0 (compatible; geoguessr-note-linkcheck/1.0; +https://github.com/dingyiyi0226/geoguessr-note)';
 
@@ -138,7 +139,8 @@ async function reachable(url) {
 
     const transient = error != null || RETRY_STATUS.has(status);
     if (transient && attempt < MAX_RETRIES) {
-      const backoff = retryAfter != null ? retryAfter * 1000 : Math.min(8000, 500 * 2 ** attempt);
+      const base = retryAfter != null ? retryAfter * 1000 : Math.min(8000, 500 * 2 ** attempt);
+      const backoff = Math.min(base, MAX_BACKOFF_MS);
       await sleep(backoff + Math.random() * 300);
       continue;
     }
