@@ -100,10 +100,14 @@
     background: color-mix(in srgb, var(--gray-100), var(--gray-200));
   }
 
-  // long tables scroll inside their own box (theme already sets display:block; overflow:auto)
-  // so the header row can stick to the top while scrolling the rows
+  // Long tables get their own scroll box so the header row can stick while
+  // the rows scroll; the sticky needs block+overflow to form that box, so
+  // set them here rather than relying on the theme. dvh caps to the visible mobile viewport.
   table {
-    max-height: 90vh;
+    display: block;
+    overflow: auto;
+    max-height: 90vh; // fallback for browsers without dvh
+    max-height: 90dvh;
   }
   table thead:has(th:not(:empty)) th {
     position: sticky;
