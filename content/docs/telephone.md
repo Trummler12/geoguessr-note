@@ -232,7 +232,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://learnablemeta.com/images/1398/1749471291095-UdG.avif"/>
+<img src="https://learnablemeta.com/images/1398/1749471291095-UdG.avif" alt="Argentina telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -240,7 +240,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/australia/Phone_codes.png"/>
+<img src="https://www.plonkit.net/images/australia/Phone_codes.png" alt="Australia telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -248,7 +248,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Telefonvorwahlbereiche-Oesterreich.svg"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Telefonvorwahlbereiche-Oesterreich.svg" alt="Austria telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -261,7 +261,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/930c8141-7d6e-4397-a56c-f58b902e85c1/Brasil_-_Códigos_de_área_DDD.png"/>
+<img src="https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/930c8141-7d6e-4397-a56c-f58b902e85c1/Brasil_-_Códigos_de_área_DDD.png" alt="Brazil telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -269,7 +269,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/bulgaria/bg_areacodes.png"/>
+<img src="https://www.plonkit.net/images/bulgaria/bg_areacodes.png" alt="Bulgaria telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -277,7 +277,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/chile/Chile_Area_Codes.png"/>
+<img src="https://www.plonkit.net/images/chile/Chile_Area_Codes.png" alt="Chile telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -285,7 +285,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/croatia/hr_areacodes_copy.png"/>
+<img src="https://www.plonkit.net/images/croatia/hr_areacodes_copy.png" alt="Croatia telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -293,7 +293,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/czechia/cz_areacodes.png"/>
+<img src="https://www.plonkit.net/images/czechia/cz_areacodes.png" alt="Czech Republic telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -301,7 +301,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/france/2_areacodes.png"/>
+<img src="https://www.plonkit.net/images/france/2_areacodes.png" alt="France telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -309,7 +309,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/germany/800px-Karte_Telefonvorwahlen_Deutschland.png"/>
+<img src="https://www.plonkit.net/images/germany/800px-Karte_Telefonvorwahlen_Deutschland.png" alt="Germany telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -317,7 +317,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Ghana_regional_phone_codes.jpg"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Ghana_regional_phone_codes.jpg" alt="Ghana telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -325,7 +325,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/greece/gr_areacodes_darkmode.png"/>
+<img src="https://www.plonkit.net/images/greece/gr_areacodes_darkmode.png" alt="Greece telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -333,7 +333,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/italy/it_phonecodes.png"/>
+<img src="https://www.plonkit.net/images/italy/it_phonecodes.png" alt="Italy telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -346,7 +346,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/19dfb5b1-0cb0-49a5-adb4-9b211585bffc/19.png"/>
+<img src="https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/19dfb5b1-0cb0-49a5-adb4-9b211585bffc/19.png" alt="Japan telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -354,7 +354,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/mexico/mx_areacodes_nobg.png"/>
+<img src="https://www.plonkit.net/images/mexico/mx_areacodes_nobg.png" alt="Mexico telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -362,7 +362,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/namibia/12.png"/>
+<img src="https://www.plonkit.net/images/namibia/12.png" alt="Namibia telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -370,7 +370,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/netherlands/Area_codes_of_the_Netherlands.png"/>
+<img src="https://www.plonkit.net/images/netherlands/Area_codes_of_the_Netherlands.png" alt="Netherlands telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -378,7 +378,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/new-zealand/nz_area_codes_new.png"/>
+<img src="https://www.plonkit.net/images/new-zealand/nz_area_codes_new.png" alt="New Zealand telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -386,7 +386,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/panama/13.png"/>
+<img src="https://www.plonkit.net/images/panama/13.png" alt="Panama telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -394,7 +394,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/poland/Poland-area-codes.png"/>
+<img src="https://www.plonkit.net/images/poland/Poland-area-codes.png" alt="Poland telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -402,7 +402,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/portugal/2areacodes_darkmode.webp"/>
+<img src="https://www.plonkit.net/images/portugal/2areacodes_darkmode.webp" alt="Portugal telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -410,7 +410,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/russia/areacodes.png"/>
+<img src="https://www.plonkit.net/images/russia/areacodes.png" alt="Russia telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -418,7 +418,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/slovakia/sk_areacodes.png"/>
+<img src="https://www.plonkit.net/images/slovakia/sk_areacodes.png" alt="Slovakia telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -426,7 +426,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/south-africa/ZA_Phone_Code_Map.png"/>
+<img src="https://www.plonkit.net/images/south-africa/ZA_Phone_Code_Map.png" alt="South Africa telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -434,7 +434,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/south-korea/kr_phonecodes.png"/>
+<img src="https://www.plonkit.net/images/south-korea/kr_phonecodes.png" alt="South Korea telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -442,7 +442,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/spain/Spain-telephone-codes__281_29_darkmode.png"/>
+<img src="https://www.plonkit.net/images/spain/Spain-telephone-codes__281_29_darkmode.png" alt="Spain telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -450,7 +450,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/sri-lanka/Sri_area_codes.png"/>
+<img src="https://www.plonkit.net/images/sri-lanka/Sri_area_codes.png" alt="Sri Lanka telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -458,7 +458,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/sweden/Phone_numbers.png"/>
+<img src="https://www.plonkit.net/images/sweden/Phone_numbers.png" alt="Sweden telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -466,7 +466,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/taiwan/a-more-detailed-taiwan-area-code-map.webp"/>
+<img src="https://www.plonkit.net/images/taiwan/a-more-detailed-taiwan-area-code-map.webp" alt="Taiwan telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -474,7 +474,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/thailand/Indicatifs_Thailande.png"/>
+<img src="https://www.plonkit.net/images/thailand/Indicatifs_Thailande.png" alt="Thailand telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -482,7 +482,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/turkey/tr_areacodes_nobg.png"/>
+<img src="https://www.plonkit.net/images/turkey/tr_areacodes_nobg.png" alt="Turkey telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -490,7 +490,7 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/united-states/US_area_codes_map.jfif"/>
+<img src="https://www.plonkit.net/images/united-states/US_area_codes_map.jfif" alt="United States telephone area code map" loading="lazy"/>
 
 {{% /details %}}
 
@@ -498,6 +498,6 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 
 {{% details "Full" %}}
 
-<img src="https://www.plonkit.net/images/vietnam/vnareacodes_map.jpg"/>
+<img src="https://www.plonkit.net/images/vietnam/vnareacodes_map.jpg" alt="Vietnam telephone area code map" loading="lazy"/>
 
 {{% /details %}}
