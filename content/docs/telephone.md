@@ -28,7 +28,37 @@ Prefer a **lookup table**? The list below covers every country's calling code, g
 | +1 | United States ([area codes](#united-states)) |
 | +1 | Canada |
 
-> `+1` is shared by ~25 North American Numbering Plan members (mostly Caribbean territories), each distinguished by its 3-digit area code.
+`+1` is shared by ~25 North American Numbering Plan members, each distinguished by its 3-digit area code:
+
+{{% details "Other NANP members (Caribbean & Pacific)" %}}
+
+| Area code | Country / territory |
+|:-|:-|
+| +1 242 | Bahamas |
+| +1 246 | Barbados |
+| +1 264 | Anguilla |
+| +1 268 | Antigua and Barbuda |
+| +1 284 | British Virgin Islands |
+| +1 340 | U.S. Virgin Islands |
+| +1 345 | Cayman Islands |
+| +1 441 | Bermuda |
+| +1 473 | Grenada |
+| +1 649 | Turks and Caicos Islands |
+| +1 658 / 876 | Jamaica |
+| +1 664 | Montserrat |
+| +1 670 | Northern Mariana Islands |
+| +1 671 | Guam |
+| +1 684 | American Samoa |
+| +1 721 | Sint Maarten |
+| +1 758 | Saint Lucia |
+| +1 767 | Dominica |
+| +1 784 | Saint Vincent and the Grenadines |
+| +1 787 / 939 | Puerto Rico |
+| +1 809 / 829 / 849 | Dominican Republic |
+| +1 868 | Trinidad and Tobago |
+| +1 869 | Saint Kitts and Nevis |
+
+{{% /details %}}
 
 **Zone 2 — Africa (and nearby territories)**
 
