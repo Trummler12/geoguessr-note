@@ -65,6 +65,19 @@
     top: 0;
     z-index: 1;
   }
+  // Opt-in sticky first column: pins the row-label column when a wide table
+  // scrolls sideways; opaque band so scrolled cells don't bleed through.
+  .sticky-col th:first-child,
+  .sticky-col td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: color-mix(in srgb, var(--gray-100), var(--gray-200));
+  }
+  // corner is both sticky row + column, so it must win on both axes
+  .sticky-col thead th:first-child {
+    z-index: 2;
+  }
 
   // reset styles settings for details under blockquote
   blockquote details summary:first-child {
