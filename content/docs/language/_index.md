@@ -4,6 +4,34 @@ weight: 30
 
 # Language
 
+{{< tabs "intro-maps" >}}
+{{% tab "Per country" %}}
+
+{{< figure src="map-official-languages.png" alt="World map colouring each country by its official language(s)" >}}
+
+Official language(s) per country — source: [Aogiri / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:World_Official_languages.png), CC BY-SA 4.0.
+
+{{% /tab %}}
+{{% tab "Detailed" %}}
+
+{{< tabs "detail-continents" >}}
+{{% tab "Europe" %}}
+
+{{< figure src="map-detail-europe.png" alt="Detailed map of the native languages of Europe, coloured by language family" loading="lazy" >}}
+
+Native languages of Europe — source: [1Blomma / DeviantArt](https://www.deviantart.com/1blomma/art/Languages-Of-Europe-702296501) (2017). Caveat: minority languages are prioritised and multilingualism is over-highlighted — read it as "which languages exist where", not "what actually shows up on signs".
+
+{{% /tab %}}
+{{< /tabs >}}
+
+{{% /tab %}}
+{{% tab "Interactive" %}}
+
+Explore it interactively → [languagemap.vercel.app](https://languagemap.vercel.app/)
+
+{{% /tab %}}
+{{< /tabs >}}
+
 > [!NOTE]
 > **Dutch**  
 > Netherlands, Belgium  
