@@ -1,4 +1,4 @@
-baseURL = 'https://dingyiyi0226.github.io/geoguessr-note/'
+baseURL = 'https://trummler12.github.io/geoguessr-note/'
 languageCode = 'en-us'
 title = 'Geoguessr Note'
 theme = 'hugo-book'
@@ -7,12 +7,12 @@ enableGitInfo = true
 [menus]
 [[menus.after]]
   name = "GitHub"
-  url = "https://github.com/dingyiyi0226/geoguessr-note"
+  url = "https://github.com/Trummler12/geoguessr-note"
 [params]
   BookTheme = 'auto'
-  BookRepo = 'https://github.com/dingyiyi0226/geoguessr-note'
-  BookLastChangeLink = 'https://github.com/dingyiyi0226/geoguessr-note/commit/{{ .GitInfo.Hash }}'
-  BookEditLink = 'https://github.com/dingyiyi0226/geoguessr-note/edit/master/{{ .Path }}'
+  BookRepo = 'https://github.com/Trummler12/geoguessr-note'
+  BookLastChangeLink = 'https://github.com/Trummler12/geoguessr-note/commit/{{ .GitInfo.Hash }}'
+  BookEditLink = 'https://github.com/Trummler12/geoguessr-note/edit/master/{{ .Path }}'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
