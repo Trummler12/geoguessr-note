@@ -1,0 +1,10 @@
+{{- /* Pre-paint: apply an explicit saved theme before first render to avoid a flash.
+       The system-preference case needs no JS here — BookTheme='auto' handles it in CSS. */ -}}
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>

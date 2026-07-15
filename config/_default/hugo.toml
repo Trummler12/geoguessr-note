@@ -6,6 +6,7 @@ enableGitInfo = true
 
 [menus]
 [[menus.after]]
+<<<<<<< HEAD
   name = "Github"
   url = "https://github.com/Trummler12/geoguessr-note"
 [params]
@@ -13,6 +14,15 @@ enableGitInfo = true
   BookRepo = 'https://github.com/Trummler12/geoguessr-note'
   BookLastChangeLink = 'https://github.com/Trummler12/geoguessr-note/commit/{{ .GitInfo.Hash }}'
   BookEditLink = 'https://github.com/Trummler12/geoguessr-note/edit/master/{{ .Path }}'
+=======
+  name = "GitHub"
+  url = "https://github.com/dingyiyi0226/geoguessr-note"
+[params]
+  BookTheme = 'auto'
+  BookRepo = 'https://github.com/dingyiyi0226/geoguessr-note'
+  BookLastChangeLink = 'https://github.com/dingyiyi0226/geoguessr-note/commit/{{ .GitInfo.Hash }}'
+  BookEditLink = 'https://github.com/dingyiyi0226/geoguessr-note/edit/master/{{ .Path }}'
+>>>>>>> origin/master
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
