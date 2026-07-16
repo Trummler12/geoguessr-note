@@ -4,6 +4,55 @@
     color: var(--gray-500);
   }
 
+  // hover hint for inline abbreviations (e.g. region geo-hints)
+  abbr[title] {
+    cursor: help;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.15em;
+  }
+
+  // toggles for the character & script tables
+  .chart-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: $padding-4;
+    font-size: 0.8rem;
+    color: var(--gray-500);
+    white-space: nowrap;
+  }
+  // Digraphs: reveal the last column + digraph-only rows (Netherlands)
+  .chartable table th:last-child,
+  .chartable table td:last-child {
+    display: none;
+  }
+  .chartable:has(#show-digraphs:checked) table th:last-child,
+  .chartable:has(#show-digraphs:checked) table td:last-child {
+    display: table-cell;
+  }
+  .chartable table tr:has(.lang-digraph-only) {
+    display: none;
+  }
+  .chartable:has(#show-digraphs:checked) table tr:has(.lang-digraph-only) {
+    display: table-row;
+  }
+  // Regionals: reveal minority / sub-national language rows
+  .chartable table tr:has(.lang-niche) {
+    display: none;
+  }
+  .chartable:has(#show-regionals:checked) table tr:has(.lang-niche) {
+    display: table-row;
+  }
+
+  // Script table: reveal the "Points to" column via the show-countries checkbox
+  .scripttable table th:last-child,
+  .scripttable table td:last-child {
+    display: none;
+  }
+  .scripttable:has(#show-countries:checked) table th:last-child,
+  .scripttable:has(#show-countries:checked) table td:last-child {
+    display: table-cell;
+  }
+
   img.img-sm,
   figure.img-sm img {
     max-width: 100px;
@@ -36,6 +85,36 @@
 
   .table-car-meta td:last-child {
     color: var(--gray-500);
+  }
+
+  // Character matrix (Cyrillic non-Russian): one column per letter so shared
+  // letters line up, but kept borderless with near-space gaps so it still reads
+  // like the old inline list. Empty header row is hidden.
+  .char-grid thead {
+    display: none;
+  }
+  .char-grid th,
+  .char-grid td {
+    padding-left: 0.18em;
+    padding-right: 0.18em;
+    text-align: center;
+  }
+  .char-grid td:first-child {
+    text-align: left;
+    padding-right: 0.7em;
+    white-space: nowrap;
+  }
+
+  // Russia matrix: optional trailing "Capital" text column, revealed by the checkbox.
+  // It is text, not a single glyph, so it opts out of the centred char-grid styling.
+  .russiatable table td:last-child {
+    display: none;
+  }
+  .russiatable:has(#show-capitals:checked) table td:last-child {
+    display: table-cell;
+    text-align: left;
+    padding-left: 0.7em;
+    white-space: nowrap;
   }
 
   // overwrite default

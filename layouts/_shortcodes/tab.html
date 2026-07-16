@@ -1,0 +1,22 @@
+{{- /*
+  Override of hugo-book's tab.html. The theme groups the tab radios by
+  `.Parent.Ordinal`, which collides once tabs are nested (inner and outer
+  both resolve to ordinal 0 → duplicate name+id, so the inner tabs hijack
+  the outer group). Prefer the parent's positional name as a unique group
+  key, falling back to the theme's ordinal when no name is given.
+*/ -}}
+{{- $group := printf "tabs-%v" .Parent.Ordinal -}}
+{{- if not .Parent.IsNamedParams -}}
+  {{- with .Parent.Get 0 }}{{ $group = printf "tabs-%v" . }}{{ end -}}
+{{- end -}}
+{{- $tab := printf "%s-%d" $group .Ordinal -}}
+<input type="radio" class="toggle" name="{{ $group }}" id="{{ $tab }}" {{ if not .Ordinal }}checked="checked"{{ end }} />
+{{- /* remove whitespaces */ -}}
+<label for="{{ $tab }}">
+  {{- .Get 0 -}}
+</label>
+{{- /* remove whitespaces */ -}}
+<div class="book-tabs-content markdown-inner">
+{{ .Inner -}}
+</div>
+{{- /* remove whitespaces */ -}}
