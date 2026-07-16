@@ -202,7 +202,7 @@ Explore it interactively → [languagemap.vercel.app](https://languagemap.vercel
 
 > [!WARNING]
 > **Note**  
-> **ş ș**, **ă ā** are identical in some fonts. Be careful when reading ad billboard
+> **ş ș**, **ă ā** are identical in some fonts. Be careful when reading a billboard
 
 > [!NOTE]
 > **Plain Latin, no special letters** — Text limited to a–z points to:
@@ -240,7 +240,7 @@ An isolated language
 > **Note**  
 > The only useful part is to distinguish between Ukraine and Russia
 
-- [Federal subjects of russia](https://en.wikipedia.org/wiki/Federal_subjects_of_Russia)
+- [Federal subjects of Russia](https://en.wikipedia.org/wiki/Federal_subjects_of_Russia)
 - **Russian**: а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
 - Letters in Russian but absent from a given language are <span class="text-rare">marked in grey</span>
 
@@ -278,7 +278,7 @@ Source: [r/geoguessr](https://www.reddit.com/r/geoguessr/comments/j8uudg/cyrilli
 
 <div class="russiatable">
 
-<label class="chart-toggle" title="Show a trailing column with each republic's capital"><input type="checkbox" id="show-capitals"> show Capital</label>
+<label class="chart-toggle" title="Show a trailing column with each republic's capital"><input type="checkbox" id="show-capitals"> Capital</label>
 
 | | | | | | | | | | | | | | | |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--|
@@ -300,9 +300,9 @@ Source: [r/geoguessr](https://www.reddit.com/r/geoguessr/comments/j8uudg/cyrilli
 
 ### Summary
 
-- Kalmyk is closed to Mongolic, but within europe
-- Northern oblasts (Udmurt, Mari El, Komi) using ö just like finnish
-- **ө ү** is used by central asia and the surrounding regions
+- Kalmyk is close to Mongolian, but within Europe
+- Northern oblasts (Udmurt, Mari El, Komi) use ö just like Finnish
+- **ө ү** is used by Central Asia and the surrounding regions
 
 
 ## Script
@@ -313,7 +313,7 @@ Source: [r/geoguessr](https://www.reddit.com/r/geoguessr/comments/j8uudg/cyrilli
 
 <div class="scripttable">
 
-<label class="chart-toggle"><input type="checkbox" id="show-countries"> show Countries</label>
+<label class="chart-toggle"><input type="checkbox" id="show-countries"> Countries</label>
 
 | Script           | Common characters      | Giveaways                     | Points to                                         |
 |:-----------------|:-----------------------|:------------------------------|:--------------------------------------------------|
