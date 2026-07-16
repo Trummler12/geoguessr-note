@@ -261,6 +261,17 @@ An isolated language
 | **<abbr title="Tajikistan — sparse GeoGuessr coverage; also lacks ц щ ы ь">Tajik</abbr>** | | ғ | қ | | | ӯ | | ҳ | ӣ | ҷ |
 {.table-tight .char-grid}
 
+{{% details "Venn diagram" %}}
+
+{{< figure src="venn-cyrillic.jpg" alt="Venn diagram of the Cyrillic alphabets of Russian, Bulgarian, Ukrainian, Serbian, Macedonian, Mongolian and Kyrgyz, showing which letters they share" loading="lazy" >}}
+
+The centre holds the letters every one of these scripts shares; each ring adds what is unique to it.  
+Belarusian, Tajik & Kazakh are not on the chart: while Belarus and Tajikistan have little to no coverage, Kazakhstan got its first official coverage in 2024, and the diagram is from 2020.
+
+Source: [r/geoguessr](https://www.reddit.com/r/geoguessr/comments/j8uudg/cyrillic_chart_tailored_for_geoguessr/).
+
+{{% /details %}}
+
 ### Russia
 
 <div class="russiatable">
