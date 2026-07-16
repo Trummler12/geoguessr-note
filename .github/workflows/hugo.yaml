@@ -7,6 +7,11 @@ on:
     branches:
       - master
 
+  # Build-only check so a broken site can't reach the default branch
+  pull_request:
+    branches:
+      - master
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -18,9 +23,10 @@ permissions:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# PR checks get their own per-branch group so they neither queue behind a deployment nor outlive a new push.
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: ${{ github.event_name == 'pull_request' && format('pr-build-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 # Default to bash
 defaults:
@@ -47,8 +53,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      # Skipped on PRs: a fork PR's token is read-only, and the check only needs the build to succeed
       - name: Setup Pages
         id: pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -61,27 +69,33 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+      # Without the Pages step (PRs) no base_url exists, so Hugo falls back to the configured baseURL
       - name: Build with Hugo
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
+            --cacheDir "${{ runner.temp }}/hugo_cache" \
+            ${{ steps.pages.outputs.base_url && format('--baseURL "{0}/"', steps.pages.outputs.base_url) || '' }}
+      # Skipped on PRs: the cache would be scoped to the PR's own ref and never reach master,
+      # so it only adds churn — and on fork PRs a failed write logs a warning that reads like a broken build
       - name: Cache Save
         id: cache-save
+        if: github.event_name != 'pull_request'
         uses: actions/cache/save@v4
         with:
           path: |
             ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
