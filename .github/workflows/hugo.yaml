@@ -77,8 +77,11 @@ jobs:
             --minify \
             --cacheDir "${{ runner.temp }}/hugo_cache" \
             ${{ steps.pages.outputs.base_url && format('--baseURL "{0}/"', steps.pages.outputs.base_url) || '' }}
+      # Skipped on PRs: the cache would be scoped to the PR's own ref and never reach master,
+      # so it only adds churn — and on fork PRs a failed write logs a warning that reads like a broken build
       - name: Cache Save
         id: cache-save
+        if: github.event_name != 'pull_request'
         uses: actions/cache/save@v4
         with:
           path: |
