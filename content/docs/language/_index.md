@@ -116,6 +116,7 @@ Explore it interactively → [languagemap.vercel.app](https://languagemap.vercel
 |  |  |  |  |  |  |
 | <abbr title="Germany, Austria, Liechtenstein, Luxembourg, E Belgium, N Italy (South Tyrol); Switzerland writes ss (own row)">German</abbr> | | | ä ö ü | **ß** | sch |
 | <span class="lang-niche"></span><abbr title="German-speaking Switzerland (Zürich, Bern, Basel …) — writes ss, never ß">Swiss German</abbr> | | | ä ö ü | <span class="text-rare">**ß**</span> | sch |
+| <span class="lang-niche"></span><abbr title="Luxembourg — ö ü only in loanwords, never ß; signs are mostly French, but the yellow place-name signs carry French on top and Luxembourgish below it in italics">Luxembourgish</abbr> | | é | ä ë | <span class="text-rare">**ß**</span> | sch |
 | <span class="lang-digraph-only"></span><abbr title="Netherlands, Belgium (Flanders), Suriname">Dutch</abbr> | | | ë ï | | ij |
 |  |  |  |  |  |  |
 | <span class="lang-niche"></span><abbr title="Ireland — Gaeltacht regions; bilingual road signs nationwide">Irish</abbr> | | **á é í ó ú** | | | bh dh mh |
@@ -161,6 +162,7 @@ Explore it interactively → [languagemap.vercel.app](https://languagemap.vercel
 |  |  |  |  |
 | <abbr title="Germany, Austria, Liechtenstein, Luxembourg, E Belgium, N Italy (South Tyrol); Switzerland writes ss (own row)">German</abbr> | **ß** | ä ö ü | sch |
 | <span class="lang-niche"></span><abbr title="German-speaking Switzerland (Zürich, Bern, Basel …) — writes ss, never ß">Swiss German</abbr> | <span class="text-rare">**ß**</span> | ä ö ü | sch |
+| <span class="lang-niche"></span><abbr title="Luxembourg — ö ü only in loanwords, never ß; signs are mostly French, but the yellow place-name signs carry French on top and Luxembourgish below it in italics">Luxembourgish</abbr> | **ä ë é** together <span class="text-rare">**ß**</span> | ö ü | sch |
 | <span class="lang-digraph-only"></span><abbr title="Netherlands, Belgium (Flanders), Suriname">Dutch</abbr> | — | ë ï | ij |
 |  |  |  |  |
 | <span class="lang-niche"></span><abbr title="Ireland — Gaeltacht regions; bilingual road signs nationwide">Irish</abbr> | — | á é í ó ú | bh dh mh |
